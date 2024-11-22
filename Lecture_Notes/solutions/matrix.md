@@ -79,8 +79,7 @@ $$
 \begin{pmatrix}
 5 & 6 \\
 7 & 8
-\end{pmatrix}
--
+\end{pmatrix}-
 \begin{pmatrix}
 1 & 2 \\
 3 & 4
