@@ -43,14 +43,6 @@ $$
 
 ---
 
-### 1. Calculate:
-
-1. \( A + B \); \( B - A \); \( A + C \); \( D + E \).
-2. \( \frac{1}{2} \mathbf{A} \), \( 2 \mathbf{B} \), \( -3 \mathbf{C} \), and \( 4 \mathbf{D} \).
-3. Calculate the products \( \mathbf{A} \cdot \mathbf{B} \); \( \mathbf{B} \cdot \mathbf{A} \); \( \mathbf{A} \cdot \mathbf{D} \); \( \mathbf{D} \cdot \mathbf{E} \).
-
----
-
 ## Solutions
 
 ### 1. Matrix Additions and Subtractions
