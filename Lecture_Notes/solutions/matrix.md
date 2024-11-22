@@ -6,6 +6,8 @@ Exercises 2024/2025
 
 ## 1. Basic Operations on Matrices
 
+![alt text](<Screenshot 2024-11-22 at 10.52.17 AM.png>)
+
 For the following matrices:
 
 $$
@@ -109,14 +111,14 @@ $$
 \end{pmatrix}
 +
 \begin{pmatrix}
-1 & 2 & 4 \\
-5 & 7 & 8
+1 & 2\\
+4 & 5\\
+7 & 8
 \end{pmatrix}=
-\begin{pmatrix}
-0 & 4 & 7 \\
-9 & 7 & 14
-\end{pmatrix}
+\text{can not be done}
 $$
+
+
 
 ---
 
