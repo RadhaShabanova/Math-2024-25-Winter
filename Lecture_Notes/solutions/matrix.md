@@ -66,8 +66,7 @@ $$
 \begin{pmatrix}
 5 & 6 \\
 7 & 8
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 6 & 8 \\
 10 & 12
@@ -85,8 +84,7 @@ $$
 \begin{pmatrix}
 1 & 2 \\
 3 & 4
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 4 & 4 \\
 4 & 4
@@ -104,8 +102,7 @@ $$
 \begin{pmatrix}
 -1 & 2 \\
 3 & 0
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 0 & 4 \\
 6 & 4
@@ -123,8 +120,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 4 \\
 5 & 7 & 8
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 0 & 4 & 7 \\
 9 & 7 & 14
@@ -143,8 +139,7 @@ $$
 \begin{pmatrix}
 1 & 2 \\
 3 & 4
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 0.5 & 1 \\
 1.5 & 2
@@ -159,8 +154,7 @@ $$
 \begin{pmatrix}
 5 & 6 \\
 7 & 8
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 10 & 12 \\
 14 & 16
@@ -175,8 +169,7 @@ $$
 \begin{pmatrix}
 -1 & 2 \\
 3 & 0
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 3 & -6 \\
 -9 & 0
@@ -191,8 +184,7 @@ $$
 \begin{pmatrix}
 -1 & 2 & 3 \\
 4 & 0 & 6
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 -4 & 8 & 12 \\
 16 & 0 & 24
@@ -215,8 +207,7 @@ $$
 \begin{pmatrix}
 5 & 6 \\
 7 & 8
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 19 & 22 \\
 43 & 50
@@ -235,8 +226,7 @@ $$
 \begin{pmatrix}
 1 & 2 \\
 3 & 4
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 23 & 34 \\
 31 & 46
@@ -255,8 +245,7 @@ $$
 \begin{pmatrix}
 -1 & 2 & 3 \\
 4 & 0 & 6
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 7 & 2 & 15 \\
 13 & 6 & 33
@@ -276,8 +265,7 @@ $$
 1 & 2 \\
 4 & 5 \\
 7 & 8
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 26 & 40 \\
 46 & 64
