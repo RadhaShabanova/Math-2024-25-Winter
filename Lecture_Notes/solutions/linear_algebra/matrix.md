@@ -585,7 +585,7 @@ $$
 \end{pmatrix}
 $$
 
-The inverse of a \( 3 \times 3 \) matrix \( A \) is calculated using the formula:
+The inverse of a \(3 \times 3\) matrix \( A \) is calculated using the formula:
 
 $$
 A^{-1} = \frac{1}{\det(A)} \cdot \text{Adj}(A)
@@ -602,29 +602,29 @@ $$
 \end{pmatrix}
 $$
 
-1. Check the determinant of \( B \):
+1.Check the determinant of \( B \):
 
 $$
-\det(B) = 4 \cdot 
+\det(A) = 2 \cdot 
 \begin{vmatrix}
-6 & 3 \\
-9 & 1
+1 & 0 \\
+2 & 0
 \end{vmatrix}
-- (-3) \cdot 
+- 0 \cdot 
 \begin{vmatrix}
--1 & 3 \\
-2 & 1
+0 & 1 \\
+1 & 0
 \end{vmatrix}
-+ 7 \cdot 
++ 1 \cdot 
 \begin{vmatrix}
--1 & 6 \\
-2 & 9
+0 & 1 \\
+1 & 2
 \end{vmatrix}
 $$
 
 Compute the determinant. If \( \det(B) \neq 0 \), the rank of \( B \) is 3.
 
-2. If \( \det(B) = 0 \):
+2.If \( \det(B) = 0 \):
 
 Check \( 2 \times 2 \) submatrices of \( B \) to find the largest non-zero determinant. If all \( 2 \times 2 \) determinants are zero, rank is 1. Otherwise, rank is 2.
 
