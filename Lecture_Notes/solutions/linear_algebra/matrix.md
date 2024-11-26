@@ -546,7 +546,7 @@ $$
 
 - **Matrix \( A \):**
 
-  - Upper Triangular Form:
+Upper Triangular Form:
 
 $$
 \begin{bmatrix}
@@ -555,11 +555,11 @@ $$
 \end{bmatrix}
 $$
 
-  - Determinant: \( 6 \)
+Determinant: \( 6 \)
   
 - **Matrix \( B \):**
 
-  - Upper Triangular Form:
+Upper Triangular Form:
 
 $$
 \begin{bmatrix}
@@ -569,4 +569,72 @@ $$
 \end{bmatrix}
 $$
 
-  - Determinant: \( 0 \)
+Determinant: \( 0 \)
+
+
+## 5. Inverse of a Matrix from the formula
+
+### Inverse of Matrix \( A \)
+
+$$
+\mathbf{A} = 
+\begin{pmatrix}
+2 & 0 & 1 \\
+0 & 1 & 0 \\
+1 & 2 & 0
+\end{pmatrix}
+$$
+
+The inverse of a \( 3 \times 3 \) matrix \( A \) is calculated using the formula:
+
+$$
+A^{-1} = \frac{1}{\det(A)} \cdot \text{Adj}(A)
+$$
+
+### Rank of Matrix \( B \)
+
+$$
+\mathbf{B} =
+\begin{pmatrix}
+4 & -3 & 7 \\
+-1 & 6 & 3 \\
+2 & 9 & 1
+\end{pmatrix}
+$$
+
+1. Check the determinant of \( B \):
+
+$$
+\det(B) = 4 \cdot 
+\begin{vmatrix}
+6 & 3 \\
+9 & 1
+\end{vmatrix}
+- (-3) \cdot 
+\begin{vmatrix}
+-1 & 3 \\
+2 & 1
+\end{vmatrix}
++ 7 \cdot 
+\begin{vmatrix}
+-1 & 6 \\
+2 & 9
+\end{vmatrix}
+$$
+
+Compute the determinant. If \( \det(B) \neq 0 \), the rank of \( B \) is 3.
+
+2. If \( \det(B) = 0 \):
+
+Check \( 2 \times 2 \) submatrices of \( B \) to find the largest non-zero determinant. If all \( 2 \times 2 \) determinants are zero, rank is 1. Otherwise, rank is 2.
+
+#### Result:
+
+Compute and find:
+- Rank of \( B \) = 3 if \( \det(B) \neq 0 \).
+
+
+
+
+
+
