@@ -605,20 +605,20 @@ $$
 1.Check the determinant of \( B \):
 
 $$
-\det(A) = 2 \cdot 
+\det(B) = 4 \cdot 
 \begin{vmatrix}
-1 & 0 \\
-2 & 0
+6 & 3 \\
+9 & 1
 \end{vmatrix}
-- 0 \cdot 
+- (-3) \cdot 
 \begin{vmatrix}
-0 & 1 \\
-1 & 0
+-1 & 3 \\
+2 & 1
 \end{vmatrix}
-+ 1 \cdot 
++ 7 \cdot 
 \begin{vmatrix}
-0 & 1 \\
-1 & 2
+-1 & 6 \\
+2 & 9
 \end{vmatrix}
 $$
 
