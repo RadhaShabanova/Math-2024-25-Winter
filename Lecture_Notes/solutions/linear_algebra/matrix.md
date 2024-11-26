@@ -519,9 +519,9 @@ After this step:
 
 2. Use the second row to make the entry below the pivot (-3) in the second column 0:
 
-   $$
-   R_3 \rightarrow R_3 - 2R_2
-   $$
+$$
+R_3 \rightarrow R_3 - 2R_2
+$$
 
 After this step:
 
@@ -548,12 +548,12 @@ $$
 
   - Upper Triangular Form:
 
-    $$
-    \begin{bmatrix}
-    12 & 3 \\
-    0 & \frac{1}{2}
-    \end{bmatrix}
-    $$
+$$
+\begin{bmatrix}
+12 & 3 \\
+0 & \frac{1}{2}
+\end{bmatrix}
+$$
 
   - Determinant: \( 6 \)
   
@@ -561,12 +561,12 @@ $$
 
   - Upper Triangular Form:
 
-    $$
-    \begin{bmatrix}
-    1 & 2 & 3 \\
-    0 & -3 & -6 \\
-    0 & 0 & 0
-    \end{bmatrix}
-    $$
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\
+0 & -3 & -6 \\
+0 & 0 & 0
+\end{bmatrix}
+$$
 
   - Determinant: \( 0 \)
