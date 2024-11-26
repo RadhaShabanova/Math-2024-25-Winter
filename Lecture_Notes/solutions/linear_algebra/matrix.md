@@ -446,3 +446,124 @@ $$
 \text{det}(D) = 77
 $$
 
+## 4. Determinants from the Gauss Method and Triangular Matrices
+
+
+### Matrix \( A \)
+
+
+$$
+\mathbf{A} =
+\begin{pmatrix} 
+12 & 3 \\
+-18 & -4
+\end{pmatrix}
+$$
+
+
+### Row Operations:
+1. Use the first row to make the entry below the pivot (12) in the second column 0:
+
+$$
+R_2 \rightarrow R_2 - \frac{-18}{12} R_1 = R_2 + \frac{3}{2} R_1
+$$
+
+### Resulting Upper Triangular Matrix:
+
+$$
+A' = 
+\begin{bmatrix}
+12 & 3 \\
+0 & \frac{1}{2}
+\end{bmatrix}
+$$
+
+### Determinant:
+
+The determinant is the product of the diagonal elements:
+$$
+\text{Determinant of } A = 12 \cdot \frac{1}{2} = 6
+$$
+
+
+### Matrix \(B\)
+
+$$
+\mathbf{B} =
+\begin{pmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{pmatrix}
+$$
+
+### Row Operations:
+1. Use the first row to make all entries below the pivot (1) in the first column 0:
+
+   $$
+   R_2 \rightarrow R_2 - 4R_1, \quad R_3 \rightarrow R_3 - 7R_1
+   $$
+   
+    After this step:
+
+   $$
+   B' = 
+   \begin{bmatrix}
+   1 & 2 & 3 \\
+   0 & -3 & -6 \\
+   0 & -6 & -12
+   \end{bmatrix}
+   $$
+
+2. Use the second row to make the entry below the pivot (-3) in the second column 0:
+
+   $$
+   R_3 \rightarrow R_3 - 2R_2
+   $$
+
+   After this step:
+
+   $$
+   B'' = 
+   \begin{bmatrix}
+   1 & 2 & 3 \\
+   0 & -3 & -6 \\
+   0 & 0 & 0
+   \end{bmatrix}
+   $$
+
+### Determinant:
+The determinant is the product of the diagonal elements:
+
+$$
+\text{Determinant of } B = 1 \cdot (-3) \cdot 0 = 0
+$$
+
+### Final Results:
+
+- **Matrix \( A \):**
+
+  - Upper Triangular Form:
+
+    $$
+    \begin{bmatrix}
+    12 & 3 \\
+    0 & \frac{1}{2}
+    \end{bmatrix}
+    $$
+
+  - Determinant: \( 6 \)
+  
+- **Matrix \( B \):**
+
+  - Upper Triangular Form:
+
+    $$
+    \begin{bmatrix}
+    1 & 2 & 3 \\
+    0 & -3 & -6 \\
+    0 & 0 & 0
+    \end{bmatrix}
+    $$
+
+  - Determinant: \( 0 \)
