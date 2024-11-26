@@ -502,9 +502,9 @@ $$
 
 1. Use the first row to make all entries below the pivot (1) in the first column 0:
 
-   $$
-   R_2 \rightarrow R_2 - 4R_1, \quad R_3 \rightarrow R_3 - 7R_1
-   $$
+$$
+R_2 \rightarrow R_2 - 4R_1, \quad R_3 \rightarrow R_3 - 7R_1
+$$
    
 After this step:
 
