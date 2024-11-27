@@ -207,6 +207,8 @@ Solve the following systems of equations without using matrices:
 
 ## 8. Linear equations by Cramer's Rule
 
+![alt text](<Screenshot 2024-11-27 at 8.52.25 PM.png>)
+
 1. Solve the system of equations:
 
 $$\begin{cases}
