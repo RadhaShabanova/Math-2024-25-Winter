@@ -1156,6 +1156,7 @@ Since the determinant is zero, the system has no unique solution and cannot be s
 ## 9. Linear equations by Gauss Elimination
 
 ### 1. Solve the system:
+
 $$
 \begin{cases}
 x + 2y - 2z = 4 \\
@@ -1165,6 +1166,7 @@ x + 2y - 2z = 4 \\
 $$
 
 The augmented matrix is:
+
 $$
 \left[
 \begin{array}{ccc|c}
@@ -1185,6 +1187,7 @@ Continue simplifying to get the values of \( x \), \( y \), and \( z \).
 ---
 
 ### 2. Solve the system:
+
 $$
 \begin{cases}
 x + y + z - t = 2 \\
@@ -1195,6 +1198,7 @@ x + y + z - t = 2 \\
 $$
 
 The augmented matrix is:
+
 $$
 \left[
 \begin{array}{cccc|c}
@@ -1211,6 +1215,7 @@ Apply Gaussian elimination to simplify this system and find \( x \), \( y \), \(
 ---
 
 ### 3. Solve the system:
+
 $$
 \begin{cases}
 x + y - z - t = 0 \\
@@ -1221,6 +1226,7 @@ x + y - z - t = 0 \\
 $$
 
 The augmented matrix is:
+
 $$
 \left[
 \begin{array}{cccc|c}
