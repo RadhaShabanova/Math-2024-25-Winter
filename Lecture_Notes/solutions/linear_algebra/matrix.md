@@ -1271,15 +1271,13 @@ $$
 x \\
 y \\
 z
-\end{bmatrix}
-=
+\end{bmatrix} =
 \begin{bmatrix}
 5 \\
 4 \\
 3
 \end{bmatrix}
 $$
-
 
 Find the inverse of the coefficient matrix:
 
