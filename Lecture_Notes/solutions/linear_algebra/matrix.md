@@ -822,16 +822,13 @@ The **Gauss Method** involves the following steps to find the inverse of a matri
 2. Use row operations to transform the augmented matrix into reduced row-echelon form (RREF), such that the left side becomes the identity matrix.
 3. The right side of the augmented matrix becomes the inverse matrix \( M^{-1} \).
 
----
-
-# Inverse of a Matrix Using the Gauss Method
-
-## Steps:
+### Steps:
 
 1. **Augment the Matrix**:
    - Combine \( M \) with the identity matrix \( I \) of the same dimensions to form an augmented matrix $$[M | I]$$
    
-   For example, if \( M \) is a \( 3 \times 3 \) matrix:
+   For example, if \( M \) is a $$ 3 \times 3 $$ matrix:
+
    $$
    M = 
    \begin{bmatrix}
@@ -864,6 +861,7 @@ The **Gauss Method** involves the following steps to find the inverse of a matri
 ## Example:
 
 Find the inverse of the matrix:
+
 $$
 M = \begin{bmatrix}
 2 & 1 \\
@@ -895,7 +893,7 @@ $$
    \right]
    $$
 
-2. Eliminate the first entry in the second row (\( R_2 \)):
+2. Eliminate the first entry in the second row ( R_2 ):
 
    $$
    R_2 \rightarrow R_2 - 5 \cdot R_1 \quad \Rightarrow \quad
