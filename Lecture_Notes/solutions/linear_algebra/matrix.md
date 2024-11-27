@@ -1045,6 +1045,8 @@ $$
 
 ## 8. Linear equations by Cramer's Rule
 
+![alt text](<Screenshot 2024-11-27 at 8.52.25 PM.png>)
+
 $$
 \begin{cases}
 2x_1 - 3x_2 = 7 \\
