@@ -819,6 +819,7 @@ The **Gauss Method** involves the following steps to find the inverse of a matri
 ### 1. Matrix \( A \)
 
 Matrix \( A \):
+
 $$
 A =
 \begin{pmatrix}
@@ -828,7 +829,9 @@ A =
 $$
 
 #### Steps:
+
 1. Augment \( A \) with the identity matrix:
+
 $$
 \left[
 \begin{array}{cc|cc}
@@ -839,7 +842,9 @@ $$
 $$
 
 2. Apply row operations:
+
    - \( R_2 \to R_2 - 3R_1 \):
+
 $$
 \left[
 \begin{array}{cc|cc}
@@ -850,6 +855,7 @@ $$
 $$
 
    - \( R_2 \to \frac{R_2}{-2} \):
+
 $$
 \left[
 \begin{array}{cc|cc}
@@ -860,6 +866,7 @@ $$
 $$
 
    - \( R_1 \to R_1 - 2R_2 \):
+
 $$
 \left[
 \begin{array}{cc|cc}
@@ -870,6 +877,7 @@ $$
 $$
 
 The right side is the inverse of \( A \):
+
 $$
 A^{-1} =
 \begin{pmatrix}
@@ -883,6 +891,7 @@ $$
 ### 2. Matrix \( B \)
 
 Matrix \( B \):
+
 $$
 B =
 \begin{pmatrix}
@@ -893,7 +902,9 @@ B =
 $$
 
 #### Steps:
+
 1. Augment \( B \) with the identity matrix:
+
 $$
 \left[
 \begin{array}{ccc|ccc}
@@ -905,6 +916,7 @@ $$
 $$
 
 2. Use row operations to transform the left side into the identity matrix. After performing the steps (detailed calculations omitted for brevity):
+
 $$
 \left[
 \begin{array}{ccc|ccc}
@@ -916,6 +928,7 @@ $$
 $$
 
 The right side is the inverse of \( B \):
+
 $$
 B^{-1} =
 \begin{pmatrix}
@@ -930,6 +943,7 @@ $$
 ### 3. Matrix \( C \)
 
 Matrix \( C \):
+
 $$
 C =
 \begin{pmatrix}
@@ -940,7 +954,9 @@ C =
 $$
 
 #### Steps:
+
 1. Augment \( C \) with the identity matrix:
+
 $$
 \left[
 \begin{array}{ccc|ccc}
@@ -952,7 +968,9 @@ $$
 $$
 
 2. Use row operations to transform the left side into the identity matrix:
+
    - Swap \( R_1 \) and \( R_3 \):
+
 $$
 \left[
 \begin{array}{ccc|ccc}
@@ -964,6 +982,7 @@ $$
 $$
 
 The right side is the inverse of \( C \):
+
 $$
 C^{-1} =
 \begin{pmatrix}
@@ -978,6 +997,7 @@ $$
 ### Final Results
 
 1. \( A^{-1} \):
+
 $$
 \begin{pmatrix}
 -2 & 1 \\
@@ -986,6 +1006,7 @@ $$
 $$
 
 2. \( B^{-1} \):
+
 $$
 \begin{pmatrix}
 -1 & \frac{4}{3} & -\frac{1}{3} \\
@@ -995,6 +1016,7 @@ $$
 $$
 
 3. \( C^{-1} \):
+
 $$
 \begin{pmatrix}
 0 & 0 & 1 \\
