@@ -909,27 +909,27 @@ $$
 
 3. Make the pivot in the second row a \( 1 \) by dividing \( R_2 \) by 0.5:
 
-   $$
-   R_2 \rightarrow \frac{1}{0.5} R_2 \quad \Rightarrow \quad
-   \left[
-   \begin{array}{cc|cc}
-   1 & 0.5 & 0.5 & 0 \\
-   0 & 1 & -5 & 2
-   \end{array}
-   \right]
-   $$
+$$
+R_2 \rightarrow \frac{1}{0.5} R_2 \quad \Rightarrow \quad
+\left[
+\begin{array}{cc|cc}
+1 & 0.5 & 0.5 & 0 \\
+0 & 1 & -5 & 2
+\end{array}
+\right]
+$$
 
 4. Eliminate the second entry in the first row (\( R_1 \)):
 
-   $$
-   R_1 \rightarrow R_1 - 0.5 \cdot R_2 \quad \Rightarrow \quad
-   \left[
-   \begin{array}{cc|cc}
-   1 & 0 & 3 & -1 \\
-   0 & 1 & -5 & 2
-   \end{array}
-   \right]
-   $$
+$$
+R_1 \rightarrow R_1 - 0.5 \cdot R_2 \quad \Rightarrow \quad
+\left[
+\begin{array}{cc|cc}
+1 & 0 & 3 & -1 \\
+0 & 1 & -5 & 2
+\end{array}
+\right]
+$$
 
 ### Step 3: The Right Side is the Inverse:
 
