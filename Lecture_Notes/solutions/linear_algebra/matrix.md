@@ -824,211 +824,220 @@ The **Gauss Method** involves the following steps to find the inverse of a matri
 
 ---
 
-### 1. Matrix \( A \)
+# Inverse of a Matrix Using the Gauss Method
 
-Matrix \( A \):
+## Steps:
 
+1. **Augment the Matrix**:
+   - Combine \( M \) with the identity matrix \( I \) of the same dimensions to form an augmented matrix $$[M | I]$$
+   
+   For example, if \( M \) is a \( 3 \times 3 \) matrix:
+   $$
+   M = 
+   \begin{bmatrix}
+   a_{11} & a_{12} & a_{13} \\
+   a_{21} & a_{22} & a_{23} \\
+   a_{31} & a_{32} & a_{33}
+   \end{bmatrix}
+   \quad \rightarrow \quad
+   \left[
+   \begin{array}{ccc|ccc}
+   a_{11} & a_{12} & a_{13} & 1 & 0 & 0 \\
+   a_{21} & a_{22} & a_{23} & 0 & 1 & 0 \\
+   a_{31} & a_{32} & a_{33} & 0 & 0 & 1
+   \end{array}
+   \right]
+   $$
+
+2. **Transform the Left Side to the Identity Matrix**:
+   - Apply **elementary row operations** to the augmented matrix. The goal is to convert the left-hand portion (original \( M \)) into the identity matrix \( I \).
+   - Elementary row operations include:
+     - Swapping two rows $$ R_i \leftrightarrow R_j $$
+     - Multiplying a row by a non-zero scalar $$ k \cdot R_i $$
+     - Adding or subtracting a multiple of one row to another $$ R_i \pm k \cdot R_j $$
+
+3. **Interpret the Right Side as the Inverse**:
+   - Once the left side becomes \( I \), the right side will be $$ M^{-1} $$
+
+---
+
+## Example:
+
+Find the inverse of the matrix:
 $$
-A =
-\begin{pmatrix}
-1 & 2 \\
-3 & 4
-\end{pmatrix}
+M = \begin{bmatrix}
+2 & 1 \\
+5 & 3
+\end{bmatrix}
 $$
 
-#### Steps:
-
-1. Augment \( A \) with the identity matrix:
-
+### Step 1: Augment with the Identity Matrix:
 $$
 \left[
 \begin{array}{cc|cc}
-1 & 2 & 1 & 0 \\
-3 & 4 & 0 & 1
+2 & 1 & 1 & 0 \\
+5 & 3 & 0 & 1
 \end{array}
 \right]
 $$
 
-2. Apply row operations:
+### Step 2: Row Operations to Form \( I \) on the Left:
 
-   - \( R_2 \to R_2 - 3R_1 \):
+1. Make the top-left entry \( 1 \) by dividing the first row by 2:
+
+   $$
+   R_1 \rightarrow \frac{1}{2} R_1 \quad \Rightarrow \quad
+   \left[
+   \begin{array}{cc|cc}
+   1 & 0.5 & 0.5 & 0 \\
+   5 & 3 & 0 & 1
+   \end{array}
+   \right]
+   $$
+
+2. Eliminate the first entry in the second row (\( R_2 \)):
+
+   $$
+   R_2 \rightarrow R_2 - 5 \cdot R_1 \quad \Rightarrow \quad
+   \left[
+   \begin{array}{cc|cc}
+   1 & 0.5 & 0.5 & 0 \\
+   0 & 0.5 & -2.5 & 1
+   \end{array}
+   \right]
+   $$
+
+3. Make the pivot in the second row a \( 1 \) by dividing \( R_2 \) by 0.5:
+
+   $$
+   R_2 \rightarrow \frac{1}{0.5} R_2 \quad \Rightarrow \quad
+   \left[
+   \begin{array}{cc|cc}
+   1 & 0.5 & 0.5 & 0 \\
+   0 & 1 & -5 & 2
+   \end{array}
+   \right]
+   $$
+
+4. Eliminate the second entry in the first row (\( R_1 \)):
+
+   $$
+   R_1 \rightarrow R_1 - 0.5 \cdot R_2 \quad \Rightarrow \quad
+   \left[
+   \begin{array}{cc|cc}
+   1 & 0 & 3 & -1 \\
+   0 & 1 & -5 & 2
+   \end{array}
+   \right]
+   $$
+
+### Step 3: The Right Side is the Inverse:
 
 $$
-\left[
-\begin{array}{cc|cc}
-1 & 2 & 1 & 0 \\
-0 & -2 & -3 & 1
-\end{array}
-\right]
-$$
-
-   - \( R_2 \to \frac{R_2}{-2} \):
-
-$$
-\left[
-\begin{array}{cc|cc}
-1 & 2 & 1 & 0 \\
-0 & 1 & \frac{3}{2} & -\frac{1}{2}
-\end{array}
-\right]
-$$
-
-   - \( R_1 \to R_1 - 2R_2 \):
-
-$$
-\left[
-\begin{array}{cc|cc}
-1 & 0 & -2 & 1 \\
-0 & 1 & \frac{3}{2} & -\frac{1}{2}
-\end{array}
-\right]
-$$
-
-The right side is the inverse of \( A \):
-
-$$
-A^{-1} =
-\begin{pmatrix}
--2 & 1 \\
-\frac{3}{2} & -\frac{1}{2}
-\end{pmatrix}
+M^{-1} =
+\begin{bmatrix}
+3 & -1 \\
+-5 & 2
+\end{bmatrix}
 $$
 
 ---
 
-### 2. Matrix \( B \)
+This method generalizes to any n * n  matrix, provided it is invertible (i.e., det(M) !=0). If \( M \) cannot be reduced to \( I \), the matrix is singular and does not have an inverse.
 
-Matrix \( B \):
+## 7. Linear Equations old school
 
-$$
-B =
-\begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 1 \\
-2 & 3 & 2
-\end{pmatrix}
-$$
-
-#### Steps:
-
-1. Augment \( B \) with the identity matrix:
+Given: 
 
 $$
-\left[
-\begin{array}{ccc|ccc}
-1 & 2 & 3 & 1 & 0 & 0 \\
-4 & 5 & 1 & 0 & 1 & 0 \\
-2 & 3 & 2 & 0 & 0 & 1
-\end{array}
-\right]
+3x - 2y = 5, \quad 2x + 3y = 7
 $$
 
-2. Use row operations to transform the left side into the identity matrix. After performing the steps (detailed calculations omitted for brevity):
+1. Solve for \( y \) in terms of \( x \) from the first equation:  
 
 $$
-\left[
-\begin{array}{ccc|ccc}
-1 & 0 & 0 & -1 & \frac{4}{3} & -\frac{1}{3} \\
-0 & 1 & 0 & \frac{2}{3} & -\frac{5}{3} & \frac{2}{3} \\
-0 & 0 & 1 & \frac{2}{3} & -\frac{1}{3} & \frac{1}{3}
-\end{array}
-\right]
+y = \frac{3x - 5}{2}
 $$
 
-The right side is the inverse of \( B \):
+2. Substitute into the second equation:  
 
 $$
-B^{-1} =
-\begin{pmatrix}
--1 & \frac{4}{3} & -\frac{1}{3} \\
-\frac{2}{3} & -\frac{5}{3} & \frac{2}{3} \\
-\frac{2}{3} & -\frac{1}{3} & \frac{1}{3}
-\end{pmatrix}
+2x + 3 \left(\frac{3x - 5}{2}\right) = 7
+$$  
+
+$$
+13x = 29 \quad \implies \quad x = \frac{29}{13}
+$$
+
+3. Solve for \( y \): 
+
+$$
+y = \frac{3 \cdot \frac{29}{13} - 5}{2} = \frac{11}{13}
+$$
+
+### Solution:  
+
+$$
+x = \frac{29}{13}, \quad y = \frac{11}{13}
 $$
 
 ---
 
-### 3. Matrix \( C \)
-
-Matrix \( C \):
+Given:  
 
 $$
-C =
-\begin{pmatrix}
-0 & 0 & 1 \\
-0 & 1 & 0 \\
-1 & 0 & 0
-\end{pmatrix}
+2x - 3y = 10, \quad 4x + 5y = 20
 $$
 
-#### Steps:
-
-1. Augment \( C \) with the identity matrix:
+1. Solve for \( y \):  
 
 $$
-\left[
-\begin{array}{ccc|ccc}
-0 & 0 & 1 & 1 & 0 & 0 \\
-0 & 1 & 0 & 0 & 1 & 0 \\
-1 & 0 & 0 & 0 & 0 & 1
-\end{array}
-\right]
+y = \frac{2x - 10}{3}
 $$
 
-2. Use row operations to transform the left side into the identity matrix:
-
-   - Swap \( R_1 \) and \( R_3 \):
+2. Substitute into the second equation:  
 
 $$
-\left[
-\begin{array}{ccc|ccc}
-1 & 0 & 0 & 0 & 0 & 1 \\
-0 & 1 & 0 & 0 & 1 & 0 \\
-0 & 0 & 1 & 1 & 0 & 0
-\end{array}
-\right]
+4x + 5 \left(\frac{2x - 10}{3}\right) = 20
+$$  
+$$
+x = 5, \quad y = 0
 $$
 
-The right side is the inverse of \( C \):
+### Solution: 
 
 $$
-C^{-1} =
-\begin{pmatrix}
-0 & 0 & 1 \\
-0 & 1 & 0 \\
-1 & 0 & 0
-\end{pmatrix}
+x = 5, \quad y = 0
 $$
 
 ---
 
-### Final Results
-
-1. \( A^{-1} \):
+Given: 
 
 $$
-\begin{pmatrix}
--2 & 1 \\
-\frac{3}{2} & -\frac{1}{2}
-\end{pmatrix}
+2x - y + z = 3, \quad x + 2y - z = 1, \quad 3x - y + 2z = 11
 $$
 
-2. \( B^{-1} \):
+1. Solve for \( z \): 
 
 $$
-\begin{pmatrix}
--1 & \frac{4}{3} & -\frac{1}{3} \\
-\frac{2}{3} & -\frac{5}{3} & \frac{2}{3} \\
-\frac{2}{3} & -\frac{1}{3} & \frac{1}{3}
-\end{pmatrix}
+z = 3 - 2x + y
 $$
 
-3. \( C^{-1} \):
+2. Substitute into the second and third equations:  
 
 $$
-\begin{pmatrix}
-0 & 0 & 1 \\
-0 & 1 & 0 \\
-1 & 0 & 0
-\end{pmatrix}
+3x + y = 4, \quad -x + y = 5
+$$
+
+3. Solve:  
+
+$$
+x = -\frac{1}{4}, \quad y = \frac{19}{4}, \quad z = \frac{45}{4}
+$$
+
+### Solution:  
+
+$$
+x = -\frac{1}{4}, \quad y = \frac{19}{4}, \quad z = \frac{45}{4}
 $$
