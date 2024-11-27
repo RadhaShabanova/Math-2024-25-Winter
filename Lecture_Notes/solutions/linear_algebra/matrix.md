@@ -1296,6 +1296,7 @@ $$
 
 Multiply $$ A^{-1} $$ by the constant matrix to solve for $$ \begin{bmatrix} x \\ y \\ z \end{bmatrix} $$ =
 
+
 $$
 \begin{bmatrix}
 x \\
