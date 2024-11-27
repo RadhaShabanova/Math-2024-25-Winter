@@ -1042,6 +1042,7 @@ $$
 x = -\frac{1}{4}, \quad y = \frac{19}{4}, \quad z = \frac{45}{4}
 $$
 
+
 ## 8. Linear equations by Cramer's Rule
 
 $$
