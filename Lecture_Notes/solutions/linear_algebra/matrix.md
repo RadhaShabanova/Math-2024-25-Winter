@@ -1052,31 +1052,37 @@ $$
 $$
 
 Matrix form:
+
 $$
 A = \begin{bmatrix} 2 & -3 \\ 3 & 5 \end{bmatrix}, \quad \mathbf{x} = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}, \quad \mathbf{b} = \begin{bmatrix} 7 \\ 2 \end{bmatrix}
 $$
 
 Determinant of \( A \):
+
 $$
 \text{det}(A) = (2)(5) - (-3)(3) = 10 + 9 = 19
 $$
 
-For \( x_1 \), replace the first column of \( A \) with \( \mathbf{b} \):
+For \( x_1 \), replace the first column of A with B:
+
 $$
 A_1 = \begin{bmatrix} 7 & -3 \\ 2 & 5 \end{bmatrix}, \quad \text{det}(A_1) = (7)(5) - (-3)(2) = 35 + 6 = 41
 $$
 
-For \( x_2 \), replace the second column of \( A \) with \( \mathbf{b} \):
+For \( x_2 \), replace the second column of A with B:
+
 $$
 A_2 = \begin{bmatrix} 2 & 7 \\ 3 & 2 \end{bmatrix}, \quad \text{det}(A_2) = (2)(2) - (7)(3) = 4 - 21 = -17
 $$
 
 Now apply Cramer's Rule:
+
 $$
 x_1 = \frac{\text{det}(A_1)}{\text{det}(A)} = \frac{41}{19}, \quad x_2 = \frac{\text{det}(A_2)}{\text{det}(A)} = \frac{-17}{19}
 $$
 
 ### Final Solution:
+
 $$
 x_1 = \frac{41}{19}, \quad x_2 = \frac{-17}{19}
 $$
@@ -1084,6 +1090,7 @@ $$
 ---
 
 ### 2. Solve the system:
+
 $$
 \begin{cases}
 2x + y - z = 1 \\
@@ -1093,6 +1100,7 @@ x - y + 2z = 4 \\
 $$
 
 Matrix form:
+
 $$
 A = \begin{bmatrix} 2 & 1 & -1 \\ 1 & -1 & 2 \\ 3 & 0 & -2 \end{bmatrix}, \quad \mathbf{x} = \begin{bmatrix} x \\ y \\ z \end{bmatrix}, \quad \mathbf{b} = \begin{bmatrix} 1 \\ 4 \\ -1 \end{bmatrix}
 $$
@@ -1102,6 +1110,7 @@ Apply Cramer's Rule as shown in the first example. Calculate the determinants fo
 ---
 
 ### 3. Solve the system:
+
 $$
 \begin{cases}
 x + y + z - t = 2 \\
@@ -1112,6 +1121,7 @@ x - z + 2t = 6 \\
 $$
 
 Matrix form:
+
 $$
 A = \begin{bmatrix} 1 & 1 & 1 & -1 \\ 1 & 0 & -1 & 2 \\ 2 & -3 & 0 & 1 \\ 3 & 1 & 3 & -4 \end{bmatrix}, \quad \mathbf{x} = \begin{bmatrix} x \\ y \\ z \\ t \end{bmatrix}, \quad \mathbf{b} = \begin{bmatrix} 2 \\ 6 \\ 4 \\ -2 \end{bmatrix}
 $$
@@ -1123,6 +1133,7 @@ Apply Cramer's Rule by finding the determinants for each variable.
 ### 4. Why can't the system be solved using Cramer's Rule?
 
 Given system:
+
 $$
 \begin{cases}
 x_1 + 2x_2 + 3x_3 = 3 \\
@@ -1132,6 +1143,7 @@ x_1 + 2x_2 + 3x_3 = 3 \\
 $$
 
 The determinant of the coefficient matrix \( A \) is:
+
 $$
 \text{det}(A) = \begin{vmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{vmatrix} = 0
 $$
