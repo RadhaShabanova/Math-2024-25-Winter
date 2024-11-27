@@ -1152,3 +1152,84 @@ $$
 $$
 
 Since the determinant is zero, the system has no unique solution and cannot be solved using Cramer's Rule.
+
+## 9. Linear equations by Gauss Elimination
+
+### 1. Solve the system:
+$$
+\begin{cases}
+x + 2y - 2z = 4 \\
+2x + y + z = 0 \\
+3x + 2y + z = 1
+\end{cases}
+$$
+
+The augmented matrix is:
+$$
+\left[
+\begin{array}{ccc|c}
+1 & 2 & -2 & 4 \\
+2 & 1 & 1 & 0 \\
+3 & 2 & 1 & 1
+\end{array}
+\right]
+$$
+
+Perform row operations to eliminate variables and solve for \( x \), \( y \), and \( z \). After Gaussian elimination:
+
+Row 2: $$ R_2 \rightarrow R_2 - 2R_1 $$
+Row 3: $$ R_3 \rightarrow R_3 - 3R_1 $$
+
+Continue simplifying to get the values of \( x \), \( y \), and \( z \).
+
+---
+
+### 2. Solve the system:
+$$
+\begin{cases}
+x + y + z - t = 2 \\
+2x + y + z = 3 \\
+-x + z - t = 0 \\
+3x + 2y - z + 2t = -1
+\end{cases}
+$$
+
+The augmented matrix is:
+$$
+\left[
+\begin{array}{cccc|c}
+1 & 1 & 1 & -1 & 2 \\
+2 & 1 & 1 & 0 & 3 \\
+-1 & 0 & 1 & -1 & 0 \\
+3 & 2 & -1 & 2 & -1
+\end{array}
+\right]
+$$
+
+Apply Gaussian elimination to simplify this system and find \( x \), \( y \), \( z \), and \( t \).
+
+---
+
+### 3. Solve the system:
+$$
+\begin{cases}
+x + y - z - t = 0 \\
+2x + 3y - 2z + t = 4 \\
+3x + 5z = 0 \\
+-x + y - 3z + 2t = 3
+\end{cases}
+$$
+
+The augmented matrix is:
+$$
+\left[
+\begin{array}{cccc|c}
+1 & 1 & -1 & -1 & 0 \\
+2 & 3 & -2 & 1 & 4 \\
+3 & 0 & 5 & 0 & 0 \\
+-1 & 1 & -3 & 2 & 3
+\end{array}
+\right]
+$$
+
+Use row operations to simplify the system and solve for \( x \), \( y \), \( z \), and \( t \).
