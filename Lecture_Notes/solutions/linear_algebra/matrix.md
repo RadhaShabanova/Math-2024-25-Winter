@@ -884,27 +884,28 @@ $$
 
 1. Make the top-left entry \( 1 \) by dividing the first row by 2:
 
-   $$
-   R_1 \rightarrow \frac{1}{2} R_1 \quad \Rightarrow \quad
-   \left[
-   \begin{array}{cc|cc}
-   1 & 0.5 & 0.5 & 0 \\
-   5 & 3 & 0 & 1
-   \end{array}
-   \right]
-   $$
+$$
+R_1 \rightarrow \frac{1}{2} R_1 \quad \Rightarrow \quad
+\left[
+\begin{array}{cc|cc}
+1 & 0.5 & 0.5 & 0 \\
+5 & 3 & 0 & 1
+\end{array}
+\right]
+$$
+
 
 2. Eliminate the first entry in the second row ( R_2 ):
 
-   $$
-   R_2 \rightarrow R_2 - 5 \cdot R_1 \quad \Rightarrow \quad
-   \left[
-   \begin{array}{cc|cc}
-   1 & 0.5 & 0.5 & 0 \\
-   0 & 0.5 & -2.5 & 1
-   \end{array}
-   \right]
-   $$
+$$
+R_2 \rightarrow R_2 - 5 \cdot R_1 \quad \Rightarrow \quad
+\left[
+\begin{array}{cc|cc}
+1 & 0.5 & 0.5 & 0 \\
+0 & 0.5 & -2.5 & 1
+\end{array}
+\right]
+$$
 
 3. Make the pivot in the second row a \( 1 \) by dividing \( R_2 \) by 0.5:
 
