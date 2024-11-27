@@ -1244,3 +1244,122 @@ $$
 $$
 
 Use row operations to simplify the system and solve for \( x \), \( y \), \( z \), and \( t \).
+
+## 10. Linear equations by Matrix Inversion
+
+![alt text](<Screenshot 2024-11-27 at 9.11.27 PM.png>)
+
+### 1. Solve the system:
+
+$$
+\begin{cases}
+x + 2y + 3z = 5 \\
+2y + 3z = 4 \\
+3z = 3
+\end{cases}
+$$
+
+Write the system in matrix form:
+
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\
+0 & 2 & 3 \\
+0 & 0 & 3
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y \\
+z
+\end{bmatrix}
+=
+\begin{bmatrix}
+5 \\
+4 \\
+3
+\end{bmatrix}
+$$
+
+Find the inverse of the coefficient matrix:
+
+$$
+A = \begin{bmatrix}
+1 & 2 & 3 \\
+0 & 2 & 3 \\
+0 & 0 & 3
+\end{bmatrix}, \quad A^{-1} = \begin{bmatrix}
+1 & -1 & 0 \\
+0 & 1 & -1 \\
+0 & 0 & \frac{1}{3}
+\end{bmatrix}
+$$
+
+Multiply $$ A^{-1} $$ by the constant matrix to solve for $$ \begin{bmatrix} x \\ y \\ z \end{bmatrix} $$ =
+
+$$
+\begin{bmatrix}
+x \\
+y \\
+z
+\end{bmatrix}
+= A^{-1} \begin{bmatrix} 5 \\ 4 \\ 3 \end{bmatrix}
+= \begin{bmatrix}
+1 & -1 & 0 \\
+0 & 1 & -1 \\
+0 & 0 & \frac{1}{3}
+\end{bmatrix}
+\begin{bmatrix}
+5 \\
+4 \\
+3
+\end{bmatrix}
+= \begin{bmatrix}
+2 \\
+1 \\
+1
+\end{bmatrix}
+$$
+
+### Final Solution:
+
+$$
+x = 2, \quad y = 1, \quad z = 1
+$$
+
+---
+
+### 2. Solve the system:
+
+$$
+\begin{cases}
+x_1 + 2x_2 + 3x_3 = 41 \\
+4x_1 + 5x_2 + 6x_3 = 93 \\
+7x_1 + 8x_2 + 9x_3 = 145
+\end{cases}
+$$
+
+Write the system in matrix form:
+
+$$
+\begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{bmatrix}
+\begin{bmatrix}
+x_1 \\
+x_2 \\
+x_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+41 \\
+93 \\
+145
+\end{bmatrix}
+$$
+
+Find the inverse of the coefficient matrix \( A \). However, this matrix is **singular** (its determinant is 0), so it **does not have an inverse**. Hence, the system has no unique solution.
+
+### Conclusion:
+Since the determinant of \( A \) is 0, the system cannot be solved using matrix inversion.
