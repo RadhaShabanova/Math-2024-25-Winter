@@ -655,15 +655,23 @@ The adjugate matrix is the transpose of the cofactor matrix. The cofactor matrix
  
 Cofactors for $\mathbf{A}$ are calculated as follows:
  
-- $C_{11} = \text{det}\begin{pmatrix} 1 & 0 \\ 2 & 0 \end{pmatrix} = (1)(0) - (0)(2) = 0$
-- $C_{12} = -\text{det}\begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix} = -(0 - 0) = 0$
-- $C_{13} = \text{det}\begin{pmatrix} 0 & 1 \\ 1 & 2 \end{pmatrix} = (0)(2) - (1)(1) = -1$
-- $C_{21} = -\text{det}\begin{pmatrix} 0 & 1 \\ 2 & 0 \end{pmatrix} = -(0 - 2) = 2$
-- $C_{22} = \text{det}\begin{pmatrix} 2 & 1 \\ 1 & 0 \end{pmatrix} = (2)(0) - (1)(1) = -1$
-- $C_{23} = -\text{det}\begin{pmatrix} 2 & 0 \\ 1 & 2 \end{pmatrix} = -(4 - 0) = -4$
-- $C_{31} = \text{det}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = (0)(0) - (1)(1) = -1$
-- $C_{32} = -\text{det}\begin{pmatrix} 2 & 1 \\ 0 & 0 \end{pmatrix} = -(0 - 0) = 0$
-- $C_{33} = \text{det}\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} = (2)(1) - (0)(0) = 2$
+$$C_{11} = \text{det}\begin{pmatrix} 1 & 0 \\ 2 & 0 \end{pmatrix} = (1)(0) - (0)(2) = 0$$
+
+$$C_{12} = -\text{det}\begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix} = -(0 - 0) = 0$$
+
+$$C_{13} = \text{det}\begin{pmatrix} 0 & 1 \\ 1 & 2 \end{pmatrix} = (0)(2) - (1)(1) = -1$$
+
+$$C_{21} = -\text{det}\begin{pmatrix} 0 & 1 \\ 2 & 0 \end{pmatrix} = -(0 - 2) = 2$$
+
+$$C_{22} = \text{det}\begin{pmatrix} 2 & 1 \\ 1 & 0 \end{pmatrix} = (2)(0) - (1)(1) = -1$$
+
+$$C_{23} = -\text{det}\begin{pmatrix} 2 & 0 \\ 1 & 2 \end{pmatrix} = -(4 - 0) = -4$$
+
+$$C_{31} = \text{det}\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = (0)(0) - (1)(1) = -1$$
+
+$$C_{32} = -\text{det}\begin{pmatrix} 2 & 1 \\ 0 & 0 \end{pmatrix} = -(0 - 0) = 0$$
+
+$$C_{33} = \text{det}\begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} = (2)(1) - (0)(0) = 2$$
  
 Thus, the cofactor matrix is:
  
