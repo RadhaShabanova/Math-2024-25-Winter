@@ -1179,8 +1179,13 @@ $$
 
 Perform row operations to eliminate variables and solve for \( x \), \( y \), and \( z \). After Gaussian elimination:
 
-Row 2: $$ R_2 \rightarrow R_2 - 2R_1 $$
-Row 3: $$ R_3 \rightarrow R_3 - 3R_1 $$
+Row 2: 
+
+$$ R_2 \rightarrow R_2 - 2R_1 $$
+
+Row 3: 
+
+$$ R_3 \rightarrow R_3 - 3R_1 $$
 
 Continue simplifying to get the values of \( x \), \( y \), and \( z \).
 
