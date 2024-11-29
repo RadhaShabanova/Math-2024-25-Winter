@@ -687,6 +687,8 @@ $$
 $$
  
 #### Step 2: Find the inverse of matrix A
+
+![alt text](<Screenshot 2024-11-29 at 10.00.51 AM.png>)
  
 The inverse of a $3 \times 3$ matrix is given by:
  
