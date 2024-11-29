@@ -406,44 +406,89 @@ $$
 
 **Determinants**
 
-For A
+# Determinants Using the Laplace Method
+
+---
+
+### **Exercise 1 (Determinant of \( A \))**
+
+Let $$ A = \begin{bmatrix} 2 & -3 & 1 \\ 4 & 0 & 2 \\ 1 & 1 & 3 \end{bmatrix} $$
+
+Using the **Laplace expansion along the first row**:
 
 $$
-\text{det}(A) = 2((4)(1) - (0)(2)) - 3((1)(1) - (0)(3)) + 1((1)(2) - (4)(3))
+\text{det}(A) = 2 \begin{vmatrix} 0 & 2 \\ 1 & 3 \end{vmatrix} 
+- (-3) \begin{vmatrix} 4 & 2 \\ 1 & 3 \end{vmatrix} 
++ 1 \begin{vmatrix} 4 & 0 \\ 1 & 1 \end{vmatrix}
+$$
+
+Now, compute each minor:
+
+$$
+\text{det}(A) = 2 \big[(0)(3) - (2)(1)\big] 
++ 3 \big[(4)(3) - (1)(2)\big] 
++ 1 \big[(4)(1) - (0)(1)\big]
 $$
 
 $$
-\text{det}(A) = 2(4 - 0) - 3(1 - 0) + 1(2 - 12)
+\text{det}(A) = 2(0 - 2) + 3(12 - 2) + 1(4 - 0)
 $$
 
 $$
-\text{det}(A) = 2(4) - 3(1) + 1(-10) = 8 - 3 - 10 = -5
+\text{det}(A) = 2(-2) + 3(10) + 4 = -4 + 30 + 4 = 30
 $$
 
-For B
+---
+
+### **Exercise 2 (Determinant of \( B \))**
+
+Let $$B = \begin{bmatrix} 2 & -3 & 1 \\ 4 & 0 & 2 \\ 0 & 0 & 1 \end{bmatrix}$$
+
+Using the **Laplace expansion along the first row**:
 
 $$
-\text{det}(B) = 2((4)(0) - (0)(2)) - 3((1)(0) - (0)(3)) + 1((1)(2) - (4)(3))
+\text{det}(B) = 2 \begin{vmatrix} 0 & 2 \\ 0 & 1 \end{vmatrix} 
+- (-3) \begin{vmatrix} 4 & 2 \\ 0 & 1 \end{vmatrix} 
++ 1 \begin{vmatrix} 4 & 0 \\ 0 & 0 \end{vmatrix}
+$$
+
+Now, compute each minor:
+
+$$
+\text{det}(B) = 2 \big[(0)(1) - (2)(0)\big] 
++ 3 \big[(4)(1) - (0)(2)\big] 
++ 1 \big[(4)(0) - (0)(0)\big]
 $$
 
 $$
-\text{det}(B) = 2(0 - 0) - 3(0 - 0) + 1(2 - 12)
+\text{det}(B) = 2(0 - 0) + 3(4 - 0) + 1(0 - 0)
 $$
 
 $$
-\text{det}(B) = 0 - 0 + 1(-10) = -10
+\text{det}(B) = 0 + 3(4) + 0 = 12
 $$
+
+---
 
 For C 
 
 $$
-\text{det}(C) = 2 \begin{vmatrix} 0 & 0 & 6 \\ 2 & 1 & 5 \\ 1 & 4 & 0 \end{vmatrix} - 3 \begin{vmatrix} 1 & 0 & 6 \\ 3 & 1 & 5 \\ 2 & 4 & 0 \end{vmatrix} + 1 \begin{vmatrix} 1 & 0 & 2 \\ 3 & 2 & 5 \\ 2 & 1 & 0 \end{vmatrix} - 4 \begin{vmatrix} 1 & 0 & 2 \\ 3 & 2 & 1 \\ 2 & 1 & 4 \end{vmatrix}
+\text{det}(C) = 2 \begin{vmatrix} 0 & 0 & 6 \\ 2 & 1 & 5 \\ 1 & 4 & 0 \end{vmatrix} 
+- 3 \begin{vmatrix} 1 & 0 & 6 \\ 3 & 1 & 5 \\ 2 & 4 & 0 \end{vmatrix} 
++ 1 \begin{vmatrix} 1 & 0 & 2 \\ 3 & 2 & 5 \\ 2 & 1 & 0 \end{vmatrix} 
+- 4 \begin{vmatrix} 1 & 0 & 2 \\ 3 & 2 & 1 \\ 2 & 1 & 4 \end{vmatrix}
 $$
 
-For D
+Substituting values:
 
 $$
-\text{det}(D) = 77
+\text{det}(C) = 2(42) - 3(40) + 1(-7) - 4(5)
+$$
+
+Simplify:
+
+$$
+\text{det}(C) = 84 - 120 - 7 - 20 = -63
 $$
 
 ## 4. Determinants from the Gauss Method and Triangular Matrices
