@@ -1402,22 +1402,75 @@ $$
 
 ### 3. Solve the system:
 
-$$
-\begin{cases}
-x + y + z - t = 2 \\
-x - z + 2t = 6 \\
-2x - 3y + t = 4 \\
-3x + y + 3z - 4t = -2
-\end{cases}
-$$
-
-Matrix form:
+The system of equations is given by:
 
 $$
-A = \begin{bmatrix} 1 & 1 & 1 & -1 \\ 1 & 0 & -1 & 2 \\ 2 & -3 & 0 & 1 \\ 3 & 1 & 3 & -4 \end{bmatrix}, \quad \mathbf{x} = \begin{bmatrix} x \\ y \\ z \\ t \end{bmatrix}, \quad \mathbf{b} = \begin{bmatrix} 2 \\ 6 \\ 4 \\ -2 \end{bmatrix}
+\begin{aligned}
+x + y + z - t &= 2 \\
+x - z + 2t &= 6 \\
+2x - 3y + t &= 4 \\
+3x + y + 3z - 4t &= -2
+\end{aligned}
 $$
 
-Apply Cramer's Rule by finding the determinants for each variable.
+We can represent the system in matrix form as:
+
+$$
+A \cdot x = b
+$$
+
+Where:
+
+$$
+A = \begin{bmatrix}
+1 & 1 & 1 & -1 \\
+1 & 0 & -1 & 2 \\
+2 & -3 & 0 & 1 \\
+3 & 1 & 3 & -4
+\end{bmatrix}, \quad
+x = \begin{bmatrix}
+x \\
+y \\
+z \\
+t
+\end{bmatrix}, \quad
+b = \begin{bmatrix}
+2 \\
+6 \\
+4 \\
+-2
+\end{bmatrix}
+$$
+
+The solution is found by computing:
+
+$$
+x = A^{-1} \cdot b
+$$
+
+The inverse of \(A\) exists and is calculated as:
+
+$$
+A^{-1} = \text{[inverse of A]}
+$$
+
+Multiplying \(A^{-1}\) with \(b\), we obtain the solution:
+
+$$
+x = \begin{bmatrix}
+0.5 \\
+1 \\
+6.5 \\
+6
+\end{bmatrix}
+$$
+
+Thus, the values of \(x\), \(y\), \(z\), and \(t\) are:
+
+$$
+x = 0.5, \quad y = 1, \quad z = 6.5, \quad t = 6
+$$
+
 
 ---
 
