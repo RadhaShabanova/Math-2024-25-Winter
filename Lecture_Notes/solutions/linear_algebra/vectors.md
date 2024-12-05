@@ -481,6 +481,7 @@ $$
 $$
 y = 2x
 $$
+
 Thus, the equation of the line is:
 
 $$
@@ -625,7 +626,7 @@ $$
 y = 2x - 1
 $$
 
-- **Perpendicular line:** The slope of a line perpendicular to $y = 2x + 3$ is $m = -\frac{1}{2}$. For example, the line passing through point $(1, 1)$ with slope $ -\frac{1}{2}$:
+- **Perpendicular line:** The slope of a line perpendicular to $y = 2x + 3$ is $m = -\frac{1}{2}$. For example, the line passing through point $(1, 1)$ with slope $-\frac{1}{2}$:
 
 $$
 y - 1 = -\frac{1}{2}(x - 1)
