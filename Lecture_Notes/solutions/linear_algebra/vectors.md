@@ -50,8 +50,8 @@ $$
 
 ## 3. Plotting vectors $\mathbf{b}$ and $\mathbf{b}_{\text{unit}}$
 
-We will plot the vector $ \mathbf{b} = [1, 1] $ and its unit vector 
-$ \mathbf{b}_{\text{unit}} = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right] $
+We will plot the vector $\mathbf{b} = [1, 1]$ and its unit vector 
+$\mathbf{b}_{\text{unit}} = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right]$
  on a 2D plane.
 
 ---
