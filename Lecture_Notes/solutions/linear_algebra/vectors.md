@@ -1,6 +1,6 @@
 # 11. Vectors I
 
-## 1. Scaling vector $\mathbf{a}$ to unit length
+### 1. Scaling vector $\mathbf{a}$ to unit length
 The given vector is:
 
 $$
@@ -27,7 +27,7 @@ $$
 
 ---
 
-## 2. Length and unit vector of $\mathbf{b}$
+### 2. Length and unit vector of $\mathbf{b}$
 The given vector is:
 
 $$
@@ -48,7 +48,7 @@ $$
 
 ---
 
-## 3. Plotting vectors $\mathbf{b}$ and $\mathbf{b}_{\text{unit}}$
+### 3. Plotting vectors $\mathbf{b}$ and $\mathbf{b}_{\text{unit}}$
 
 We will plot the vector $\mathbf{b} = [1, 1]$ and its unit vector 
 $\mathbf{b}_{\text{unit}} = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right]$
@@ -56,7 +56,7 @@ $\mathbf{b}_{\text{unit}} = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right]$
 
 ---
 
-## 4. Length and unit vector of $\mathbf{c}$
+### 4. Length and unit vector of $\mathbf{c}$
 The given vector is:
 
 $$
@@ -77,7 +77,7 @@ $$
 
 ---
 
-## 5. Cartesian coordinates of $\mathbf{v}$ in the given basis
+### 5. Cartesian coordinates of $\mathbf{v}$ in the given basis
 The given vector is:
 
 $$
@@ -140,7 +140,7 @@ $$
 
 # Vectors II
 
-## 1. Vector addition and plotting
+### 1. Vector addition and plotting
 Perform the addition of vectors:
 
 $$
@@ -158,7 +158,7 @@ We will plot $\mathbf{v_1}$, $\mathbf{v_2}$, and their sum $\mathbf{v_1} + \math
 
 ---
 
-## 2. Area of the triangle spanned by $\mathbf{v_1}$ and $\mathbf{v_2}$
+### 2. Area of the triangle spanned by $\mathbf{v_1}$ and $\mathbf{v_2}$
 The formula for the area of the triangle spanned by two vectors in 2D is:
 
 $$
@@ -182,7 +182,7 @@ $$
 
 ---
 
-## 3. Volume of the parallelepiped spanned by $\mathbf{v_1}, \mathbf{v_2}, \mathbf{v_3}$
+### 3. Volume of the parallelepiped spanned by $\mathbf{v_1}, \mathbf{v_2}, \mathbf{v_3}$
 The given vectors are:
 
 $$
@@ -197,7 +197,7 @@ $$
 
 ---
 
-## 4. Perpendicularity of $\mathbf{v_1}$ and $\mathbf{v_2}$
+### 4. Perpendicularity of $\mathbf{v_1}$ and $\mathbf{v_2}$
 Two vectors are perpendicular if their dot product is zero:
 
 $$
@@ -208,7 +208,7 @@ Since $\mathbf{v_1} \cdot \mathbf{v_2} \neq 0$, the vectors are **not perpendicu
 
 ---
 
-## 5. Angle between vectors $\mathbf{v_4} = [4, 2, 1]$ and $\mathbf{v_5} = [1, 3, 2]$
+### 5. Angle between vectors $\mathbf{v_4} = [4, 2, 1]$ and $\mathbf{v_5} = [1, 3, 2]$
 The formula for the angle between two vectors is:
 
 $$
@@ -251,7 +251,7 @@ $$
 
 ---
 
-## 6. Proof of vector identity
+### 6. Proof of vector identity
 Given three-dimensional vectors:
 
 $$
@@ -292,7 +292,7 @@ This completes the proof.
 
 # Vectors III
 
-## 1. Divide the line segment connecting points $A(-1, 2)$ and $B(3, -2)$ in the ratio 1:3
+### 1. Divide the line segment connecting points $A(-1, 2)$ and $B(3, -2)$ in the ratio 1:3
 The formula for dividing a line segment in the ratio $m:n$ is:
 
 $$
@@ -328,7 +328,7 @@ We will plot points $A(-1, 2)$, $B(3, -2)$, and the point $P(0, 1)$ on the graph
 
 ---
 
-## 2. Project vector $\mathbf{a} = (3, 4)$ onto the $OX$ and $OY$ axes
+### 2. Project vector $\mathbf{a} = (3, 4)$ onto the $OX$ and $OY$ axes
 The projection of a vector $$\mathbf{a} = (a_x, a_y)$$ onto the $OX$ -axis is given by:
 
 $$
@@ -356,7 +356,7 @@ We will plot the vector $\mathbf{a} = (3, 4)$, its projection onto the $OX$ -axi
 
 ---
 
-## 3. Project vector $\mathbf{a} = (2, 3)$ onto vector $\mathbf{b} = (1, 1)$
+### 3. Project vector $\mathbf{a} = (2, 3)$ onto vector $\mathbf{b} = (1, 1)$
 
 The formula for the projection of vector $\mathbf{a}$ onto vector $\mathbf{b}$ is:
 
@@ -387,7 +387,7 @@ We will plot the vectors $\mathbf{a} = (2, 3)$, $\mathbf{b} = (1, 1)$, and the p
 
 ---
 
-## 4. Project vector $\mathbf{b} = (1, 1)$ onto vector $\mathbf{a} = (2, 3)$
+### 4. Project vector $\mathbf{b} = (1, 1)$ onto vector $\mathbf{a} = (2, 3)$
 
 Using the same projection formula:
 
@@ -418,7 +418,7 @@ We will plot the vectors $\mathbf{a} = (2, 3)$, $\mathbf{b} = (1, 1)$, and the p
 
 # 14. Equations of lines on a plane
 
-## 1. Equation of the line passing through points $A(1, 2)$ and $B(3, 4)$
+### 1. Equation of the line passing through points $A(1, 2)$ and $B(3, 4)$
 To find the equation of the line passing through two points $A(x_1, y_1)$ and $B(x_2, y_2)$, we first calculate the slope $m$ using the formula:
 
 $$
@@ -457,7 +457,7 @@ $$
 
 ---
 
-## 2 Equation of the line passing through point $A(1, 2)$ and parallel to the line $y = 2x + 3$
+### 2 Equation of the line passing through point $A(1, 2)$ and parallel to the line $y = 2x + 3$
 The slope of the given line $y = 2x + 3$ is $m = 2$. Since the new line is parallel to this line, it will have the same slope.
 
 Using the point-slope form of the equation:
@@ -489,7 +489,7 @@ $$
 
 ---
 
-## 3. Equation of the line passing through point $A(1, 2)$ and perpendicular to the line $y = 2x + 3$
+### 3. Equation of the line passing through point $A(1, 2)$ and perpendicular to the line $y = 2x + 3$
 The slope of the given line $y = 2x + 3$ is $m = 2$. The slope of a line perpendicular to this will be the negative reciprocal:
 
 $$
@@ -526,7 +526,7 @@ $$
 
 ---
 
-## 4. Intersection point and angle between the lines $y = 2x + 3$ and $y = 3x + 2$
+### 4. Intersection point and angle between the lines $y = 2x + 3$ and $y = 3x + 2$
 To find the intersection point, set the equations equal to each other:
 
 $$
@@ -577,7 +577,7 @@ $$
 
 ---
 
-## 5 Equation of the line passing through point $A(1, 2)$ and parallel to vector $\mathbf{v} = [2, 3]$
+### 5 Equation of the line passing through point $A(1, 2)$ and parallel to vector $\mathbf{v} = [2, 3]$
 The slope of the line parallel to the vector $\mathbf{v} = [2, 3]$ is:
 
 $$
@@ -614,7 +614,7 @@ $$
 
 ---
 
-## 6. Example of a line perpendicular and parallel to the line $y = 2x + 3$
+### 6. Example of a line perpendicular and parallel to the line $y = 2x + 3$
 - **Parallel line:** The slope of the line $y = 2x + 3$ is $m = 2$. A parallel line will have the same slope. For example, the line passing through point $(1, 1)$ with slope 2:
 
 $$
@@ -637,7 +637,7 @@ $$
 
 ---
 
-## 7. Distance from point $A(1, 2)$ to the line $y = 2x + 3$
+### 7. Distance from point $A(1, 2)$ to the line $y = 2x + 3$
 The formula for the distance from a point $(x_1, y_1)$ to a line $Ax + By + C = 0$ is:
 
 $$
@@ -664,7 +664,7 @@ $$
 
 ---
 
-## 8. Equation of the line passing through points $A(2, 0)$ and $B(0, 3)$
+### 8. Equation of the line passing through points $A(2, 0)$ and $B(0, 3)$
 The slope of the line passing through $A(2, 0)$ and $B(0, 3)$ is:
 
 $$
@@ -691,7 +691,7 @@ $$
 
 ---
 
-## 9. Angle between the line $y = x + 3$ and the $OX$ -axis
+### 9. Angle between the line $y = x + 3$ and the $OX$ -axis
 The slope of the line $y = x + 3$ is $m = 1$. The angle $\theta$ between the line and the $OX$ -axis is:
 
 $$
@@ -706,5 +706,5 @@ $$
 
 ---
 
-## 10. Vector perpendicular to the line $x + y + 1 = 0$
+### 10. Vector perpendicular to the line $x + y + 1 = 0$
 The equation of the line is $x + y + 1 = 0$, which can be written in the form $Ax + By + C = 0$ with $A = 1$ and $B = 1$. A vector perpendicular to this line is $\mathbf{n} = [A, B] = [1, 1]$.
