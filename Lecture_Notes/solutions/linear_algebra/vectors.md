@@ -1,6 +1,6 @@
 # 11. Vectors I
 
-## 1. Scaling vector $ \mathbf{a} $ to unit length
+## 1. Scaling vector $\mathbf{a}$ to unit length
 The given vector is:
 
 $$
@@ -27,7 +27,7 @@ $$
 
 ---
 
-## 2. Length and unit vector of $ \mathbf{b} $$
+## 2. Length and unit vector of $\mathbf{b}$
 The given vector is:
 
 $$
@@ -56,7 +56,7 @@ $\mathbf{b}_{\text{unit}} = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right]$
 
 ---
 
-## 4. Length and unit vector of $ \mathbf{c} $
+## 4. Length and unit vector of $\mathbf{c}$
 The given vector is:
 
 $$
@@ -77,7 +77,7 @@ $$
 
 ---
 
-## 5. Cartesian coordinates of $ \mathbf{v} $ in the given basis
+## 5. Cartesian coordinates of $\mathbf{v}$ in the given basis
 The given vector is:
 
 $$
@@ -158,7 +158,7 @@ We will plot $ \mathbf{v_1} $, $ \mathbf{v_2} $, and their sum $ \mathbf{v_1} + 
 
 ---
 
-## 2. Area of the triangle spanned by $ \mathbf{v_1} $ and $ \mathbf{v_2} $
+## 2. Area of the triangle spanned by $\mathbf{v_1}$ and $\mathbf{v_2}$
 The formula for the area of the triangle spanned by two vectors in 2D is:
 
 $$
@@ -182,7 +182,7 @@ $$
 
 ---
 
-## 3. Volume of the parallelepiped spanned by $ \mathbf{v_1}, \mathbf{v_2}, \mathbf{v_3} $
+## 3. Volume of the parallelepiped spanned by $\mathbf{v_1}, \mathbf{v_2}, \mathbf{v_3}$
 The given vectors are:
 
 $$
@@ -197,7 +197,7 @@ $$
 
 ---
 
-## 4. Perpendicularity of $ \mathbf{v_1} $ and $ \mathbf{v_2} $
+## 4. Perpendicularity of $\mathbf{v_1} $ and $ \mathbf{v_2}$
 Two vectors are perpendicular if their dot product is zero:
 
 $$
@@ -208,7 +208,7 @@ Since $ \mathbf{v_1} \cdot \mathbf{v_2} \neq 0 $, the vectors are **not perpendi
 
 ---
 
-## 5. Angle between vectors $ \mathbf{v_4} = [4, 2, 1] $ and $ \mathbf{v_5} = [1, 3, 2] $
+## 5. Angle between vectors $\mathbf{v_4} = [4, 2, 1] $ and $ \mathbf{v_5} = [1, 3, 2]$
 The formula for the angle between two vectors is:
 
 $$
@@ -264,7 +264,7 @@ $$
 \mathbf{a} \times (\mathbf{b} \times \mathbf{c}) = (\mathbf{a} \cdot \mathbf{c}) \mathbf{b} - (\mathbf{a} \cdot \mathbf{b}) \mathbf{c}
 $$
 
-### Step 1: Expand $ \mathbf{b} \times \mathbf{c} $
+### Step 1: Expand $\mathbf{b} \times \mathbf{c}$
 The cross product is:
 
 $$
@@ -275,7 +275,7 @@ c_x & c_y & c_z
 \end{vmatrix}
 $$
 
-### Step 2: Compute $ \mathbf{a} \times (\mathbf{b} \times \mathbf{c}) $
+### Step 2: Compute $\mathbf{a} \times (\mathbf{b} \times \mathbf{c})$
 Substitute the result of $ \mathbf{b} \times \mathbf{c} $ into:
 
 $$
