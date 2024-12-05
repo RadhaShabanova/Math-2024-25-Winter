@@ -7,7 +7,7 @@ $$
 \mathbf{a} = [3, 4]
 $$
 
-The length (magnitude) of $ \mathbf{a} $ is calculated as:
+The length (magnitude) of $\mathbf{a}$ is calculated as:
 
 $$
 \|\mathbf{a}\| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5
@@ -34,13 +34,13 @@ $$
 \mathbf{b} = [1, 1]
 $$
 
-The length (magnitude) of $ \mathbf{b} $ is:
+The length (magnitude) of $\mathbf{b}$ is:
 
 $$
 \|\mathbf{b}\| = \sqrt{1^2 + 1^2} = \sqrt{2}
 $$
 
-The unit vector of $ \mathbf{b} $ is:
+The unit vector of $\mathbf{b}$ is:
 
 $$
 \mathbf{b}_{\text{unit}} = \frac{\mathbf{b}}{\|\mathbf{b}\|} = \frac{1}{\sqrt{2}} \cdot [1, 1] = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right]
@@ -63,13 +63,13 @@ $$
 \mathbf{c} = [1, 2, 3]
 $$
 
-The length (magnitude) of $ \mathbf{c} $ is:
+The length (magnitude) of $\mathbf{c}$ is:
 
 $$
 \|\mathbf{c}\| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{1 + 4 + 9} = \sqrt{14}
 $$
 
-The unit vector of $ \mathbf{c} $ is:
+The unit vector of $\mathbf{c}$ is:
 
 $$
 \mathbf{c}_{\text{unit}} = \frac{\mathbf{c}}{\|\mathbf{c}\|} = \frac{1}{\sqrt{14}} \cdot [1, 2, 3] = \left[\frac{1}{\sqrt{14}}, \frac{2}{\sqrt{14}}, \frac{3}{\sqrt{14}}\right]
@@ -90,7 +90,7 @@ $$
 \mathbf{b}_1 = [1, 0, 1], \quad \mathbf{b}_2 = [0, 1, 0], \quad \mathbf{b}_3 = [1, 0, -1]
 $$
 
-The coordinates of $ \mathbf{v} $ in the given basis are found by solving:
+The coordinates of $\mathbf{v}$ in the given basis are found by solving:
 
 $$
 \mathbf{v} = x_1 \mathbf{b}_1 + x_2 \mathbf{b}_2 + x_3 \mathbf{b}_3
@@ -132,7 +132,7 @@ $$
 2x_3 = -2 \implies x_3 = -1
 $$
 
-Thus, the coordinates of $ \mathbf{v} $ in the given basis are:
+Thus, the coordinates of $\mathbf{v}$ in the given basis are:
 
 $$
 (x_1, x_2, x_3) = (3, 3, -1)
@@ -204,7 +204,7 @@ $$
 \mathbf{v_1} \cdot \mathbf{v_2} = (2)(-1) + (1)(1) = -2 + 1 = -1
 $$
 
-Since $ \mathbf{v_1} \cdot \mathbf{v_2} \neq 0 $, the vectors are **not perpendicular**.
+Since $\mathbf{v_1} \cdot \mathbf{v_2} \neq 0$, the vectors are **not perpendicular**.
 
 ---
 
@@ -276,7 +276,7 @@ c_x & c_y & c_z
 $$
 
 ### Step 2: Compute $\mathbf{a} \times (\mathbf{b} \times \mathbf{c})$
-Substitute the result of $ \mathbf{b} \times \mathbf{c} $ into:
+Substitute the result of $\mathbf{b} \times \mathbf{c}$ into:
 
 $$
 \mathbf{a} \times (\mathbf{b} \times \mathbf{c})
