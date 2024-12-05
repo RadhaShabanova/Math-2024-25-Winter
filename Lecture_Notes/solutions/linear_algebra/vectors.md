@@ -415,3 +415,296 @@ $$
 
 ### Plot:
 We will plot the vectors $\mathbf{a} = (2, 3)$, $\mathbf{b} = (1, 1)$, and the projection of $\mathbf{b}$ onto $\mathbf{a}$.
+
+# 14. Equations of lines on a plane
+
+## 1. Equation of the line passing through points $A(1, 2)$ and $B(3, 4)$
+To find the equation of the line passing through two points $A(x_1, y_1)$ and $B(x_2, y_2)$, we first calculate the slope $m$ using the formula:
+
+$$
+m = \frac{y_2 - y_1}{x_2 - x_1}
+$$
+
+Substituting the coordinates of $A(1, 2)$ and $B(3, 4)$:
+
+$$
+m = \frac{4 - 2}{3 - 1} = \frac{2}{2} = 1
+$$
+
+Now that we have the slope, the equation of the line in point-slope form is:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+Substituting $m = 1$ and $A(1, 2)$:
+
+$$
+y - 2 = 1(x - 1)
+$$
+
+Simplifying:
+
+$$
+y = x + 1
+$$
+
+Thus, the equation of the line is:
+
+$$
+y = x + 1
+$$
+
+---
+
+## 2 Equation of the line passing through point $A(1, 2)$ and parallel to the line $y = 2x + 3$
+The slope of the given line $y = 2x + 3$ is $m = 2$. Since the new line is parallel to this line, it will have the same slope.
+
+Using the point-slope form of the equation:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+Substituting $m = 2$ and $A(1, 2)$:
+
+$$
+y - 2 = 2(x - 1)
+$$
+
+Simplifying:
+
+$$
+y - 2 = 2x - 2
+$$
+
+$$
+y = 2x
+$$
+Thus, the equation of the line is:
+
+$$
+y = 2x
+$$
+
+---
+
+## 3. Equation of the line passing through point $A(1, 2)$ and perpendicular to the line $y = 2x + 3$
+The slope of the given line $y = 2x + 3$ is $m = 2$. The slope of a line perpendicular to this will be the negative reciprocal:
+
+$$
+m_{\text{perpendicular}} = -\frac{1}{2}
+$$
+
+Using the point-slope form of the equation:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+Substituting $m = -\frac{1}{2}$ and $A(1, 2)$:
+
+$$
+y - 2 = -\frac{1}{2}(x - 1)
+$$
+
+Simplifying:
+
+$$
+y - 2 = -\frac{1}{2}x + \frac{1}{2}
+$$
+
+$$
+y = -\frac{1}{2}x + \frac{5}{2}
+$$
+
+Thus, the equation of the line is:
+
+$$
+y = -\frac{1}{2}x + \frac{5}{2}
+$$
+
+---
+
+## 4. Intersection point and angle between the lines $y = 2x + 3$ and $y = 3x + 2$
+To find the intersection point, set the equations equal to each other:
+
+$$
+2x + 3 = 3x + 2
+$$
+
+Solving for $x$:
+
+$$
+3 - 2 = 3x - 2x
+$$
+
+$$
+x = 1
+$$
+
+Substitute $x = 1$ into one of the original equations (e.g., $y = 2x + 3$:
+
+$$
+y = 2(1) + 3 = 5
+$$
+
+Thus, the intersection point is $(1, 5)$.
+
+To find the angle between the two lines, use the formula:
+
+$$
+\tan \theta = \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right|
+$$
+
+For the lines $y = 2x + 3$ and $y = 3x + 2$, the slopes are $m_1 = 2$ and $m_2 = 3$. Substituting:
+
+$$
+\tan \theta = \left| \frac{2 - 3}{1 + 2 \cdot 3} \right| = \left| \frac{-1}{7} \right| = \frac{1}{7}
+$$
+
+Thus:
+
+$$
+\theta = \tan^{-1}\left( \frac{1}{7} \right)
+$$
+
+The angle is approximately:
+
+$$
+\theta \approx 8.13^\circ
+$$
+
+---
+
+## 5 Equation of the line passing through point $A(1, 2)$ and parallel to vector $\mathbf{v} = [2, 3]$
+The slope of the line parallel to the vector $\mathbf{v} = [2, 3]$ is:
+
+$$
+m = \frac{3}{2}
+$$
+
+Using the point-slope form of the equation:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+Substituting $m = \frac{3}{2}$ and $A(1, 2)$:
+
+$$
+y - 2 = \frac{3}{2}(x - 1)
+$$
+
+Simplifying:
+
+$$
+y - 2 = \frac{3}{2}x - \frac{3}{2}
+$$
+
+$$
+y = \frac{3}{2}x + \frac{1}{2}
+$$
+
+Thus, the equation of the line is:
+
+$$
+y = \frac{3}{2}x + \frac{1}{2}
+$$
+
+---
+
+## 6. Example of a line perpendicular and parallel to the line $y = 2x + 3$
+- **Parallel line:** The slope of the line $y = 2x + 3$ is $m = 2$. A parallel line will have the same slope. For example, the line passing through point $(1, 1)$ with slope 2:
+
+$$
+y - 1 = 2(x - 1)
+$$
+
+$$
+y = 2x - 1
+$$
+
+- **Perpendicular line:** The slope of a line perpendicular to $y = 2x + 3$ is $m = -\frac{1}{2}$. For example, the line passing through point $(1, 1)$ with slope $ -\frac{1}{2}$:
+
+$$
+y - 1 = -\frac{1}{2}(x - 1)
+$$
+
+$$
+y = -\frac{1}{2}x + \frac{3}{2}
+$$
+
+---
+
+## 7. Distance from point $A(1, 2)$ to the line $y = 2x + 3$
+The formula for the distance from a point $(x_1, y_1)$ to a line $Ax + By + C = 0$ is:
+
+$$
+d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}
+$$
+
+Rewriting the equation $y = 2x + 3$ in standard form:
+
+$$
+2x - y + 3 = 0
+$$
+
+Substitute $A = 2$, $B = -1$, $C = 3$, and $(x_1, y_1) = (1, 2)$:
+
+$$
+d = \frac{|2(1) - (2) + 3|}{\sqrt{2^2 + (-1)^2}} = \frac{|2 - 2 + 3|}{\sqrt{4 + 1}} = \frac{|3|}{\sqrt{5}} = \frac{3}{\sqrt{5}}
+$$
+
+Thus, the distance is:
+
+$$
+d = \frac{3}{\sqrt{5}} \approx 1.34
+$$
+
+---
+
+## 8. Equation of the line passing through points $A(2, 0)$ and $B(0, 3)$
+The slope of the line passing through $A(2, 0)$ and $B(0, 3)$ is:
+
+$$
+m = \frac{3 - 0}{0 - 2} = \frac{3}{-2} = -\frac{3}{2}
+$$
+
+Using the point-slope form with point $A(2, 0)$:
+
+$$
+y - 0 = -\frac{3}{2}(x - 2)
+$$
+
+Simplifying:
+
+$$
+y = -\frac{3}{2}x + 3
+$$
+
+Thus, the equation of the line is:
+
+$$
+y = -\frac{3}{2}x + 3
+$$
+
+---
+
+## 9. Angle between the line $y = x + 3$ and the $OX$ -axis
+The slope of the line $y = x + 3$ is $m = 1$. The angle $\theta$ between the line and the $OX$ -axis is:
+
+$$
+\tan \theta = m = 1
+$$
+
+Thus:
+
+$$
+\theta = \tan^{-1}(1) = 45^\circ
+$$
+
+---
+
+## 10. Vector perpendicular to the line $x + y + 1 = 0$
+The equation of the line is $x + y + 1 = 0$, which can be written in the form $Ax + By + C = 0$ with $A = 1$ and $B = 1$. A vector perpendicular to this line is $\mathbf{n} = [A, B] = [1, 1]$.
