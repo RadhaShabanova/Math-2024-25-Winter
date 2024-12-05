@@ -154,7 +154,7 @@ $$
 $$
 
 ### Plot:
-We will plot $\mathbf{v_1}$, $\mathbf{v_2}$, and their sum $ \mathbf{v_1} + \mathbf{v_2} $ on a 2D graph.
+We will plot $\mathbf{v_1}$, $\mathbf{v_2}$, and their sum $\mathbf{v_1} + \mathbf{v_2}$ on a 2D graph.
 
 ---
 
