@@ -290,3 +290,128 @@ $$
 
 This completes the proof.
 
+# Vectors III
+
+## 1. Divide the line segment connecting points $A(-1, 2)$ and $B(3, -2)$ in the ratio 1:3
+The formula for dividing a line segment in the ratio $m:n$ is:
+
+$$
+P = \left( \frac{m x_2 + n x_1}{m + n}, \frac{m y_2 + n y_1}{m + n} \right)
+$$
+
+where $A(x_1, y_1)$ and $B(x_2, y_2)$ are the endpoints, and $m$ and $n$ are the given ratios.
+
+Here,$A(-1, 2)$, $B(3, -2)$, and the ratio is $1:3$, so $m = 1$ and $n = 3$.
+
+Substitute into the formula:
+
+$$
+P = \left( \frac{1 \cdot 3 + 3 \cdot (-1)}{1 + 3}, \frac{1 \cdot (-2) + 3 \cdot 2}{1 + 3} \right)
+$$
+
+$$
+P = \left( \frac{3 - 3}{4}, \frac{-2 + 6}{4} \right)
+$$
+
+$$
+P = \left( \frac{0}{4}, \frac{4}{4} \right)
+$$
+
+$$
+P = (0, 1)
+$$
+
+Thus, the point that divides the segment in the ratio 1:3 is $P(0, 1)$.
+
+### Plot:
+We will plot points $A(-1, 2)$, $B(3, -2)$, and the point $P(0, 1)$ on the graph.
+
+---
+
+## 2. Project vector $\mathbf{a} = (3, 4)$ onto the $OX$ and $OY$ axes
+The projection of a vector $$\mathbf{a} = (a_x, a_y)$$ onto the $OX$ -axis is given by:
+
+$$
+\text{proj}_{OX}(\mathbf{a}) = (a_x, 0)
+$$
+
+And the projection onto the $OY$-axis is:
+
+$$
+\text{proj}_{OY}(\mathbf{a}) = (0, a_y)
+$$
+
+For $\mathbf{a} = (3, 4)$:
+
+$$
+\text{proj}_{OX}(\mathbf{a}) = (3, 0)
+$$
+
+$$
+\text{proj}_{OY}(\mathbf{a}) = (0, 4)
+$$
+
+### Plot:
+We will plot the vector $\mathbf{a} = (3, 4)$, its projection onto the $OX$ -axis $(3, 0)$, and its projection onto the $OY$ -axis $(0, 4)$.
+
+---
+
+## 3. Project vector $\mathbf{a} = (2, 3)$ onto vector $\mathbf{b} = (1, 1)$
+
+The formula for the projection of vector $\mathbf{a}$ onto vector $\mathbf{b}$ is:
+
+$$
+\text{proj}_{\mathbf{b}}(\mathbf{a}) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{b}\|^2} \mathbf{b}
+$$
+
+First, compute the dot product $\mathbf{a} \cdot \mathbf{b}$:
+
+$$
+\mathbf{a} \cdot \mathbf{b} = (2)(1) + (3)(1) = 2 + 3 = 5
+$$
+
+Next, compute the magnitude squared of $\mathbf{b}$:
+
+$$
+\|\mathbf{b}\|^2 = (1)^2 + (1)^2 = 1 + 1 = 2
+$$
+
+Thus, the projection is:
+
+$$
+\text{proj}_{\mathbf{b}}(\mathbf{a}) = \frac{5}{2} \cdot (1, 1) = \left( \frac{5}{2}, \frac{5}{2} \right)
+$$
+
+### Plot:
+We will plot the vectors $\mathbf{a} = (2, 3)$, $\mathbf{b} = (1, 1)$, and the projection of $\mathbf{a}$ onto $\mathbf{b}$.
+
+---
+
+## 4. Project vector $\mathbf{b} = (1, 1)$ onto vector $\mathbf{a} = (2, 3)$
+
+Using the same projection formula:
+
+$$
+\text{proj}_{\mathbf{a}}(\mathbf{b}) = \frac{\mathbf{b} \cdot \mathbf{a}}{\|\mathbf{a}\|^2} \mathbf{a}
+$$
+
+First, compute the dot product $\mathbf{b} \cdot \mathbf{a}$:
+
+$$
+\mathbf{b} \cdot \mathbf{a} = (1)(2) + (1)(3) = 2 + 3 = 5
+$$
+
+Next, compute the magnitude squared of $\mathbf{a}$:
+
+$$
+\|\mathbf{a}\|^2 = (2)^2 + (3)^2 = 4 + 9 = 13
+$$
+
+Thus, the projection is:
+
+$$
+\text{proj}_{\mathbf{a}}(\mathbf{b}) = \frac{5}{13} \cdot (2, 3) = \left( \frac{10}{13}, \frac{15}{13} \right)
+$$
+
+### Plot:
+We will plot the vectors $\mathbf{a} = (2, 3)$, $\mathbf{b} = (1, 1)$, and the projection of $\mathbf{b}$ onto $\mathbf{a}$.
