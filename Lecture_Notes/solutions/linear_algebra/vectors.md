@@ -301,7 +301,7 @@ $$
 
 where $A(x_1, y_1)$ and $B(x_2, y_2)$ are the endpoints, and $m$ and $n$ are the given ratios.
 
-Here,$A(-1, 2)$, $B(3, -2)$, and the ratio is $1:3$, so $m = 1$ and $n = 3$.
+Here, $A(-1, 2)$, $B(3, -2)$, and the ratio is $1:3$, so $m = 1$ and $n = 3$.
 
 Substitute into the formula:
 
