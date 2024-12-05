@@ -13,7 +13,7 @@ $$
 \|\mathbf{a}\| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5
 $$
 
-To make the length of $ \mathbf{a} $ equal to 1, we multiply it by:
+To make the length of $\mathbf{a}$ equal to 1, we multiply it by:
 
 $$
 k = \frac{1}{\|\mathbf{a}\|} = \frac{1}{5}
@@ -154,7 +154,7 @@ $$
 $$
 
 ### Plot:
-We will plot $ \mathbf{v_1} $, $ \mathbf{v_2} $, and their sum $ \mathbf{v_1} + \mathbf{v_2} $ on a 2D graph.
+We will plot $\mathbf{v_1}$, $\mathbf{v_2}$, and their sum $ \mathbf{v_1} + \mathbf{v_2} $ on a 2D graph.
 
 ---
 
@@ -197,7 +197,7 @@ $$
 
 ---
 
-## 4. Perpendicularity of $\mathbf{v_1} $ and $ \mathbf{v_2}$
+## 4. Perpendicularity of $\mathbf{v_1}$ and $\mathbf{v_2}$
 Two vectors are perpendicular if their dot product is zero:
 
 $$
@@ -208,7 +208,7 @@ Since $\mathbf{v_1} \cdot \mathbf{v_2} \neq 0$, the vectors are **not perpendicu
 
 ---
 
-## 5. Angle between vectors $\mathbf{v_4} = [4, 2, 1] $ and $ \mathbf{v_5} = [1, 3, 2]$
+## 5. Angle between vectors $\mathbf{v_4} = [4, 2, 1]$ and $\mathbf{v_5} = [1, 3, 2]$
 The formula for the angle between two vectors is:
 
 $$
@@ -287,5 +287,6 @@ Simplify to show:
 $$
 \mathbf{a} \times (\mathbf{b} \times \mathbf{c}) = (\mathbf{a} \cdot \mathbf{c}) \mathbf{b} - (\mathbf{a} \cdot \mathbf{b}) \mathbf{c}
 $$
+
 This completes the proof.
 
