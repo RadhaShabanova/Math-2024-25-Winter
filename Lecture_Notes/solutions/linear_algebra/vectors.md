@@ -7,6 +7,8 @@ $$
 \mathbf{a} = [3, 4]
 $$
 
+How the given vector looks like:
+
 The length (magnitude) of $\mathbf{a}$ is calculated as:
 
 $$
@@ -84,6 +86,8 @@ $$
 \mathbf{v} = [2, 3, 4]
 $$
 
+![alt text](<Screenshot 2024-12-06 at 7.58.09 AM.png>)
+
 The basis vectors are:
 
 $$
@@ -95,6 +99,10 @@ The coordinates of $\mathbf{v}$ in the given basis are found by solving:
 $$
 \mathbf{v} = x_1 \mathbf{b}_1 + x_2 \mathbf{b}_2 + x_3 \mathbf{b}_3
 $$
+
+![
+](<Screenshot 2024-12-06 at 8.00.43 AM.png>)
+
 
 Expanding this equation:
 
@@ -155,6 +163,10 @@ $$
 
 ### Plot:
 We will plot $\mathbf{v_1}$, $\mathbf{v_2}$, and their sum $\mathbf{v_1} + \mathbf{v_2}$ on a 2D graph.
+
+![
+](<Screenshot 2024-12-06 at 8.03.33 AM.png>)
+
 
 ---
 
