@@ -162,7 +162,7 @@ $$
 $$
 
 ### Plot:
-We will plot $\mathbf{v_1}$, $\mathbf{v_2}$, and their sum $\mathbf{v_1} + \mathbf{v_2}$ on a 2D graph.
+We will plot $\mathbf{v_1}$, $\mathbf{v_2}$, and their sum $\mathbf{v_1} + \mathbf{v_2}$ on a 3D graph.
 
 ![
 ](<Screenshot 2024-12-06 at 8.03.33 AM.png>)
