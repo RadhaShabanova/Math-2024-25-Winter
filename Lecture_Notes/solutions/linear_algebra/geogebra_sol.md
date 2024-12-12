@@ -81,3 +81,4 @@ $a = −1$
 
 The equation becomes 
 $y=−(x−2)(x−4)$ .
+
