@@ -60,4 +60,24 @@ Angle = 315, in other words it is 45 degrees.
 
 ![alt text](<Screenshot 2024-12-12 at 9.21.08 PM.png>)
 
+# 15. Equations of second-order curves (conic sections)
 
+### 1. Find the equation of a circle with center at point A(1,2)and radius r = 3.
+
+![alt text](<Screenshot 2024-12-12 at 9.38.53 PM.png>)
+
+Using circle tool
+
+### 2. Find the equation of a parabola intersecting the Ox axis at points x = 2, x = 4, and passing through point y(3) = 1.
+
+![alt text](<Screenshot 2024-12-12 at 9.48.35 PM.png>)
+
+1. The general equation of the parabola is $y=a(x−2)(x−4)$ , since it intersects the x-axis at x=2 and x=4.
+
+2. Use the condition that it passes through (3,1): 
+$1=a(3−2)(3−4)$
+Solve for a:
+$a = −1$
+
+The equation becomes 
+$y=−(x−2)(x−4)$ .
