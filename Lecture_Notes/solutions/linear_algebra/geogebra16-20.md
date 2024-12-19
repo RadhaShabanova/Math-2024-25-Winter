@@ -421,3 +421,153 @@ The vector perpendicular to the plane $x + y + z = 1$ is $\mathbf{n} = [1, 1, 1]
 
 ![alt text](<Screenshot 2024-12-19 at 8.50.43 PM.png>)
 
+## 17. Equations of second-order surfaces
+
+#### 1. Write the equation of a sphere with center at point P=(1,2,3) and radius r=3.
+
+Equation of the Sphere:
+The general equation of a sphere is:
+
+$$
+(x - x_0)^2 + (y - y_0)^2 + (z - z_0)^2 = r^2
+$$
+
+Substitute the values:
+
+$$
+(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 9
+$$
+
+Final Answer:
+The equation of the sphere is:
+
+$$
+(x - 1)^2 + (y - 2)^2 + (z - 3)^2 = 9
+$$
+
+![alt text](<Screenshot 2024-12-19 at 8.54.09 PM.png>)
+
+#### 2. Do the spheres with equations $x^2 + y^2 + z^2 = 1$ and $x^2 + y^2 + z^2 = 2$ have any common points?
+
+Analysis:
+Both spheres have the same center at the origin $(0, 0, 0)$, but different radii:
+- Radius of Sphere 1: $r_1 = 1$
+- Radius of Sphere 2: $r_2 = \sqrt{2} \approx 1.414$
+
+Since their radii are different, the spheres **do not intersect**.
+
+Final Answer:
+The spheres do not have any common points.
+
+![alt text](<Screenshot 2024-12-19 at 8.58.13 PM.png>)
+
+#### 3. What curve in space is formed by the intersection of the sphere $x^2 + y^2 + z^2 = 1$ with the sphere $(x - 1)^2 + y^2 + z^2 = 1$? Find the equation of this curve.
+
+Subtract the second sphere's equation from the first:
+
+$$
+x^2 + y^2 + z^2 - (x^2 - 2x + 1 + y^2 + z^2) = 0
+$$
+
+This simplifies to:
+
+$$
+-2x + 1 = 0 \quad \Rightarrow \quad x = \frac{1}{2}
+$$
+
+Substitute $x = \frac{1}{2}$ into the first sphere's equation:
+
+
+$$
+\left( \frac{1}{2} \right)^2 + y^2 + z^2 = 1 \quad \Rightarrow \quad y^2 + z^2 = \frac{3}{4}
+$$
+
+Final Answer:
+The equation of the curve is:
+
+$$
+x = \frac{1}{2}, \quad y^2 + z^2 = \frac{3}{4}
+$$
+
+This represents a circle with radius $\frac{\sqrt{3}}{2}$ in the plane $x = \frac{1}{2}$.
+
+![alt text](<Screenshot 2024-12-19 at 9.03.08 PM.png>)
+
+#### 4. Write the equation of the tangent plane to the paraboloid $z = (x - 1)^2 + y^2 + 1$ at point $P(1, 0, 1)$.
+
+Compute Partial Derivatives
+
+$$
+f_x = 2(x - 1), \quad f_y = 2y
+$$
+
+Evaluate at $P(1, 0, 1)$
+
+$$
+f_x(1, 0) = 0, \quad f_y(1, 0) = 0
+$$
+
+The equation of the tangent plane is:
+
+$$
+z = 1
+$$
+
+Final Answer:
+The equation of the tangent plane is $z = 1$.
+
+![alt text](<Screenshot 2024-12-19 at 9.05.54 PM.png>)
+
+## 18. Functions
+
+#### 1. Draw in a single Geogebra notebook the following functions: 
+- $f(x) = x^2$
+- $g(x) = x$
+- $h(x) = \frac{1}{x}$
+- $j(x) = \sin(x)$
+
+Find value of all the above functions at $x = 2$.
+
+- $f(2) = 2^2 = 4$
+- $g(2) = 2$
+- $h(2) = \frac{1}{2} = 0.5$
+- $j(2) = \sin(2) \approx 0.909$
+
+Final Values at $ x = 2$:
+- $f(2) = 4$
+- $g(2) = 2$
+- $h(2) = 0.5$
+- $j(2) \approx 0.909$
+
+![alt text](<Screenshot 2024-12-19 at 9.11.26 PM.png>)
+
+#### 2. Let $f(x) = 3x - 1$ and $g(x) = x$. Find: f(g(x)), g(f(x)), f(f(x)), g(g(x)).Visualize functions in a single Geogebra notebook.
+
+Computations:
+
+1. $f(g(x)) = f(x) = 3x - 1$
+2. $g(f(x)) = g(3x - 1) = 3x - 1$
+3. $f(f(x)) = f(3x - 1) = 9x - 4$
+4. $g(g(x)) = g(x) = x$
+
+Final Answers:
+- $f(g(x)) = 3x - 1$
+- $g(f(x)) = 3x - 1$
+- $f(f(x)) = 9x - 4$
+- $g(g(x)) = x$
+
+![alt text](<Screenshot 2024-12-19 at 9.16.36 PM.png>)
+
+#### 3. Let $f(x) = e^x$ and $g(x) = \ln(x)$ . Check: f(g(x)) and g(f(x)).What do you notice?
+
+Computations:
+
+1. $f(g(x)) = e^{\ln(x)} = x$
+2. $g(f(x)) = \ln(e^x) = x$
+
+Conclusion:
+Both $f(g(x))$ and $g(f(x))$ equal $x$, demonstrating that $e^x$ and $\ln(x)$ are inverse functions of each other.
+
+![alt text](<Screenshot 2024-12-19 at 9.20.13 PM.png>)
+
+
