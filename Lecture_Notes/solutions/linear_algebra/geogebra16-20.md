@@ -599,16 +599,16 @@ Since the function is not one-to-one, it does not have an inverse.
 To find the inverse, we:
 1. Swap $x$ and $y$:
    
-   $$
+$$
    x = y - 1
-   $$
+$$
 
 2. Solve for $y$:
    
    
-   $$
+$$
    y = x + 1
-   $$
+$$
 
 Thus, the inverse function is:
 
