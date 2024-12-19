@@ -76,9 +76,9 @@ Eliminate One Variable:
    - To eliminate $z$, align the coefficients of $z$ by multiplying:
      - Multiply Plane 1 by $2$m:
 
-       $$
-       4x + 6y + 8z = 10
-       $$
+$$
+4x + 6y + 8z = 10
+$$
 
      - Multiply Plane 2 by $4$:
 
