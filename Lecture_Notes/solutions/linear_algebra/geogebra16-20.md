@@ -27,8 +27,8 @@ Therefore, the equation of the plane is:
 #### 3. The plane passes through point A(1,2,3) and is perpendicular to the normal vector n = [2,3,4]. Find the equation of the plane.
 
 
-The plane passes through the point $ A(1, 2, 3) $ .
-The normal vector to the plane is $ \mathbf{n} = [2, 3, 4] $ .
+The plane passes through the point $A(1, 2, 3)$ .
+The normal vector to the plane is $\mathbf{n} = [2, 3, 4]$ .
 
 The general equation of a plane with a normal vector$ \mathbf{n} = [a, b, c] $ is:
 
