@@ -570,4 +570,161 @@ Both $f(g(x))$ and $g(f(x))$ equal $x$, demonstrating that $e^x$ and $\ln(x)$ ar
 
 ![alt text](<Screenshot 2024-12-19 at 9.20.13 PM.png>)
 
+#### 4. We have function $f = \{(1, 7), (2, 9), (3, 11)\}$. Give inverse function $f^{-1}$.
 
+To find the inverse function $f^{-1}$, we swap the coordinates in each pair:
+- $(1, 7)$ becomes $(7, 1)$
+- $(2, 9)$ becomes $(9, 2)$
+- $(3, 11)$ becomes $(11, 3)$
+
+Thus, the inverse function is:
+
+$$
+f^{-1} = \{(7, 1), (9, 2), (11, 3)\}
+$$
+
+![alt text](<Screenshot 2024-12-19 at 9.29.15 PM.png>)
+
+#### 5. We have function $f = \{(1, 7), (2, 7), (3, 11)\}$. Give inverse function.
+
+Checking for Inversibility:
+For a function to have an inverse, it must be one-to-one. In this case:
+- Both $(1, 7)$ and $(2, 7)$ have the same output $7$, so the function is not one-to-one.
+
+Conclusion:
+Since the function is not one-to-one, it does not have an inverse.
+
+#### 6. We have function $f(x) = x - 1$.Give inverse function. Show both functions on the same Geogebra notebook.
+
+To find the inverse, we:
+1. Swap $x$ and $y$:
+   
+   $$
+   x = y - 1
+   $$
+
+2. Solve for $y$:
+   
+   
+   $$
+   y = x + 1
+   $$
+
+Thus, the inverse function is:
+
+$$
+f^{-1}(x) = x + 1
+$$
+
+![alt text](<Screenshot 2024-12-19 at 9.34.34 PM.png>)
+
+## 19. Limits of Sequences
+
+#### 1. Calculate
+
+First Limit:
+
+$$
+\lim_{n \to \infty} \frac{n^2 + 3n}{2n^2 - 2n} = \lim_{n \to \infty} \frac{1 + \frac{3}{n}}{2 - \frac{2}{n}} = \frac{1}{2}
+$$
+
+Second Limit:
+
+$$
+\lim_{n \to \infty} \frac{2n + 3}{3n^3 - 1} = \lim_{n \to \infty} \frac{\frac{2}{n^2} + \frac{3}{n^3}}{3 - \frac{1}{n^3}} = 0
+$$
+
+#### 2. Prove using the squeeze theorem
+
+Bound the function
+
+We know that:
+
+$$
+-1 \leq \sin(n) \leq 1
+$$
+
+Thus:
+
+$$
+-\frac{1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
+$$
+
+Take the limit of the bounds
+
+$$
+\lim_{n \to \infty} -\frac{1}{n} = 0 \quad \text{and} \quad \lim_{n \to \infty} \frac{1}{n} = 0
+$$
+
+Apply the Squeeze Theorem
+
+Since:
+
+$$
+-\frac{1}{n} \leq \frac{\sin(n)}{n} \leq \frac{1}{n}
+$$
+
+and both the lower and upper bounds approach 0, we conclude:
+
+$$
+\lim_{n \to \infty} \frac{\sin(n)}{n} = 0
+$$
+
+#### 3. FInd the limit of sequence.
+
+We recognize that the sequence is closely related to the definition of the constant $e$:
+
+$$
+e = \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n
+$$
+
+Thus, we conclude that:
+
+$$
+\lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n = e
+$$
+
+## 20. Limits of Real Functions
+
+#### 1. Compute
+We simplify the expression by dividing both the numerator and denominator by $x^4$:
+
+$$
+\frac{x^3 + 2x^2}{x^4 - 3x^3} = \frac{\frac{1}{x} + \frac{2}{x^2}}{1 - \frac{3}{x}}
+$$
+
+As $x \to \infty$, the terms $\frac{1}{x}$, $\frac{2}{x^2}$, and $\frac{3}{x}$ tend to 0, so the expression becomes:
+
+$$
+\frac{0 + 0}{1 - 0} = 0
+$$
+
+Thus, the limit is:
+
+$$
+\lim_{x \to \infty} \frac{x^3 + 2x^2}{x^4 - 3x^3} = 0
+$$
+
+#### 2. Find: $\lim_{x \to 0} \frac{\sin(3x)}{2x + 1}$
+
+We evaluate the numerator and denominator at $x = 0$:
+
+- The denominator $2x + 1$ at $x = 0$ gives $1$.
+- The numerator $\sin(3x)$ at $x = 0$ gives $0$.
+
+Therefore, the limit is:
+
+$$
+\lim_{x \to 0} \frac{\sin(3x)}{2x + 1} = \frac{0}{1} = 0
+$$
+
+#### 3. Find
+Asymptotes of $f(x) = \frac{x^2 - 1}{x^2 + 1}$:
+
+- **Vertical Asymptotes**: There are no vertical asymptotes since the denominator $x^2 + 1$ never equals 0.
+- **Horizontal Asymptotes**: As $x \to \infty$ or $x \to -\infty$, $f(x) \to 1$, so there is a horizontal asymptote at $y = 1$.
+
+Asymptotes of $g(x) = \frac{\sin(x)}{x^2 + 1}$:
+
+- **Vertical Asymptotes**: There are no vertical asymptotes since the denominator $x^2 + 1$ never equals 0.
+- **Horizontal Asymptotes**: As $x \to \infty$ or $x \to -\infty$, $g(x) \to 0$, so there is a horizontal asymptote at $y = 0$.
