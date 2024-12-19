@@ -318,7 +318,7 @@ $$
 D = \frac{|Ax_1 + By_1 + Cz_1 + D|}{\sqrt{A^2 + B^2 + C^2}}
 $$
 
-### Applying the Formula:
+Applying the Formula:
 
 For the plane $2x + 3y + 4z = 5$, rewrite as $2x + 3y + 4z - 5 = 0$, so $A = 2$, $B = 3$, $C = 4$, and $D = -5$.
 
@@ -333,4 +333,91 @@ $$
 The distance is $\frac{15}{\sqrt{29}}$ .
 
 ![alt text](<Screenshot 2024-12-19 at 8.26.10 PM.png>)
+
+#### 8. The plane intersects the coordinate axes at points A(2,0,0), B(0,3,0) and C(0,0,4). Find the equation of the plane.
+
+Equation of the Plane:
+The equation of a plane passing through points $A$, $B$, and $C$ can be written as:
+
+$$
+\frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1
+$$
+
+where $a$, $b$, and $c$) are the intercepts on the $x$-, $y$-, and $z$-axes, respectively.
+
+From the given points:
+- $a = 2$
+- $b = 3$
+- $c = 4$
+
+Thus, the equation of the plane is:
+
+$$
+\frac{x}{2} + \frac{y}{3} + \frac{z}{4} = 1
+$$
+
+Standard Form:
+Multiplying through by 12:
+
+$$
+6x + 4y + 3z = 12
+$$
+
+Final Answer:
+The equation of the plane is:
+
+$$
+6x + 4y + 3z = 12
+$$
+
+![alt text](<Screenshot 2024-12-19 at 8.44.53 PM.png>)
+
+#### 9. Calculate the angle between the plane x+y+z=1 and the plane x=0 (i.e., the yz plane).
+
+
+Normal Vectors:
+- Normal vector of Plane 1: $\mathbf{n_1} = [1, 1, 1]$
+- Normal vector of Plane 2: $\mathbf{n_2} = [1, 0, 0]$
+
+Formula for Angle Between Planes:
+
+$$
+\cos \theta = \frac{|\mathbf{n_1} \cdot \mathbf{n_2}|}{|\mathbf{n_1}| |\mathbf{n_2}|}
+$$
+
+Calculation:
+1. Dot product: $\mathbf{n_1} \cdot \mathbf{n_2} = 1$
+2. Magnitudes: $|\mathbf{n_1}| = \sqrt{3}, |\mathbf{n_2}| = 1$
+3. Cosine of the angle: 
+
+$$
+\cos \theta = \frac{1}{\sqrt{3}}
+$$
+
+4. Angle:
+
+$$
+\theta = \cos^{-1} \left( \frac{1}{\sqrt{3}} \right) \approx 54.74^\circ
+$$
+
+Final Answer:
+The angle between the planes is approximately $54.74^\circ$.
+
+![alt text](<Screenshot 2024-12-19 at 8.47.30 PM.png>)
+
+#### 10. Find the vector perpendicular to the plane x+y+z=1.
+
+Perpendicular Vector:
+The vector perpendicular to the plane is the normal vector, which is given by the coefficients of $x$, $y$, and $z$ in the plane equation.
+
+Thus, the normal vector is:
+
+$$
+\mathbf{n} = [1, 1, 1]
+$$
+
+Final Answer:
+The vector perpendicular to the plane $x + y + z = 1$ is $\mathbf{n} = [1, 1, 1]$.
+
+![alt text](<Screenshot 2024-12-19 at 8.50.43 PM.png>)
 
