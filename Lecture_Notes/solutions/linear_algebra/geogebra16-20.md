@@ -74,13 +74,13 @@ Solving the Two Plane Equations Simultaneously
 
 Eliminate One Variable:
    - To eliminate $z$, align the coefficients of $z$ by multiplying:
-     - Multiply Plane 1 by $2$m:
+   - Multiply Plane 1 by $2$ :
 
 $$
 4x + 6y + 8z = 10
 $$
 
-     - Multiply Plane 2 by $4$:
+- Multiply Plane 2 by $4$:
 
 $$
 12x + 16y + 8z = 24
@@ -190,42 +190,42 @@ $$
 
 1. The plane passes through the point $A(1, 2, 3)$ and is parallel to the vectors:
 
-   $$
-   \mathbf{v}_1 = [1, 0, 1], \quad \mathbf{v}_2 = [0, 1, -1]
-   $$
+$$
+\mathbf{v}_1 = [1, 0, 1], \quad \mathbf{v}_2 = [0, 1, -1]
+$$
 
 2. The normal vector $\mathbf{n}$ of the plane is perpendicular to both $\mathbf{v}_1$ and $\mathbf{v}_2$, which we find using the cross product:
 
-   $$
-   \mathbf{n} = \mathbf{v}_1 \times \mathbf{v}_2
-   $$
+$$
+\mathbf{n} = \mathbf{v}_1 \times \mathbf{v}_2
+$$
 
    Compute the determinant:
 
-   $$
+$$
    \mathbf{n} = \begin{vmatrix}
    \mathbf{i} & \mathbf{j} & \mathbf{k} \\
    1 & 0 & 1 \\
    0 & 1 & -1
    \end{vmatrix}
    = \mathbf{i}(0 \cdot -1 - 1 \cdot 1) - \mathbf{j}(1 \cdot -1 - 0 \cdot 0) + \mathbf{k}(1 \cdot 1 - 0 \cdot 0)
-   $$
+$$
 
    Simplify:
 
-   $$
+$$
    \mathbf{n} = \mathbf{i}(-1) - \mathbf{j}(-1) + \mathbf{k}(1)
-   $$
+$$
 
-   $$
+$$
    \mathbf{n} = [-1, 1, 1]
-   $$
+$$
 
    The normal vector is:
 
-   $$
+$$
    \mathbf{n} = [-1, 1, 1]
-   $$
+$$
 
 ---
 
