@@ -82,107 +82,107 @@ $$
 
      - Multiply Plane 2 by $4$:
 
-       $$
-       12x + 16y + 8z = 24
-       $$
+$$
+12x + 16y + 8z = 24
+$$
 
    - Subtract Plane 1 from Plane 2:
 
-     $$
-     (12x + 16y + 8z) - (4x + 6y + 8z) = 24 - 10
-     $$
+$$
+(12x + 16y + 8z) - (4x + 6y + 8z) = 24 - 10
+$$
 
-     $$
-     8x + 10y = 14
-     $$
+$$
+8x + 10y = 14
+$$
 
    - Simplify:
 
-     $$
-     4x + 5y = 7 \quad \text{(Equation 3)}
-     $$
+$$
+4x + 5y = 7 \quad \text{(Equation 3)}
+$$
 
 Solve for $x$ in Terms of $y$ :
 
    - From Equation 3:
 
-     $$
-     x = \frac{7 - 5y}{4}
-     $$
+$$
+x = \frac{7 - 5y}{4}
+$$
 
 Express $x$ and $y$ in Terms of $z$ :
    - Substitute $x = \frac{7 - 5y}{4}$ into Plane 1:
 
-     $$
-     2\left(\frac{7 - 5y}{4}\right) + 3y + 4z = 5
-     $$
+$$
+2\left(\frac{7 - 5y}{4}\right) + 3y + 4z = 5
+$$
 
-     $$
-     \frac{14 - 10y}{4} + 3y + 4z = 5
-     $$
+$$
+\frac{14 - 10y}{4} + 3y + 4z = 5
+$$
 
    - Simplify:
 
-     $$
-     \frac{14 - 10y + 12y}{4} + 4z = 5
-     $$
+$$
+\frac{14 - 10y + 12y}{4} + 4z = 5
+$$
 
-     $$
-     \frac{14 + 2y}{4} + 4z = 5
-     $$
+$$
+\frac{14 + 2y}{4} + 4z = 5
+$$
 
-     $$
-     \frac{7 + y}{2} + 4z = 5
-     $$
+$$
+\frac{7 + y}{2} + 4z = 5
+$$
 
    - Solve for $y$ in terms of $z$ :
 
-     $$
-     \frac{7 + y}{2} = 5 - 4z
-     $$
+$$
+\frac{7 + y}{2} = 5 - 4z
+$$
 
-     $$
-     y = 2(5 - 4z) - 7
-     $$
+$$
+y = 2(5 - 4z) - 7
+$$
 
-     $$
-     y = 10 - 8z - 7
-     $$
+$$
+y = 10 - 8z - 7
+$$
 
-     $$
-     y = 3 - 8z
-     $$
+$$
+y = 3 - 8z
+$$
 
    - Substitute $y = 3 - 8z$ into $x = \frac{7 - 5y}{4}$ :
 
-     $$
-     x = \frac{7 - 5(3 - 8z)}{4}
-     $$
+$$
+x = \frac{7 - 5(3 - 8z)}{4}
+$$
 
-     $$
-     x = \frac{7 - 15 + 40z}{4}
-     $$
+$$
+x = \frac{7 - 15 + 40z}{4}
+$$
 
-     $$
-     x = \frac{-8 + 40z}{4}
-     $$
+$$
+x = \frac{-8 + 40z}{4}
+$$
 
-     $$
-     x = -2 + 10z
-     $$
+$$
+x = -2 + 10z
+$$
 
 Parametric Form of the Line:
    - Let $z = t$ (the parameter). Then:
 
-     $$
-     x = -2 + 10t, \quad y = 3 - 8t, \quad z = t
-     $$
+$$
+x = -2 + 10t, \quad y = 3 - 8t, \quad z = t
+$$
 
    - The parametric equation of the line is:
 
-     $$
-     \mathbf{r}(t) = (-2, 3, 0) + t(10, -8, 1)
-     $$
+$$
+\mathbf{r}(t) = (-2, 3, 0) + t(10, -8, 1)
+$$
 
 ![alt text](<Screenshot 2024-12-19 at 8.04.06 PM.png>)
 
