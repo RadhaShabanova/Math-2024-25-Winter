@@ -30,17 +30,17 @@ Therefore, the equation of the plane is:
 The plane passes through the point $A(1, 2, 3)$ .
 The normal vector to the plane is $\mathbf{n} = [2, 3, 4]$ .
 
-The general equation of a plane with a normal vector$ \mathbf{n} = [a, b, c] $ is:
+The general equation of a plane with a normal vector $\mathbf{n} = [a, b, c]$ is:
 
    $$
    a(x - x_0) + b(y - y_0) + c(z - z_0) = 0,
    $$
 
-where $ (x_0, y_0, z_0) $ is a point on the plane.
+where $(x_0, y_0, z_0)$ is a point on the plane.
 
 Substitute Values:
-   - Normal vector: $ a = 2, b = 3, c = 4 $.
-   - Point $ A(1, 2, 3) $ : $ x_0 = 1, y_0 = 2, z_0 = 3 $ .
+   - Normal vector: $a = 2, b = 3, c = 4$.
+   - Point $A(1, 2, 3) $ : $ x_0 = 1, y_0 = 2, z_0 = 3$ .
 
    Substituting into the equation:
 
