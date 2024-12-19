@@ -191,13 +191,13 @@ Parametric Form of the Line:
 1. The plane passes through the point $A(1, 2, 3)$ and is parallel to the vectors:
 
    $$
-   \mathbf{v}_1 = [1, 0, 1], \quad \mathbf{v}_2 = [0, 1, -1].
+   \mathbf{v}_1 = [1, 0, 1], \quad \mathbf{v}_2 = [0, 1, -1]
    $$
 
 2. The normal vector $\mathbf{n}$ of the plane is perpendicular to both $\mathbf{v}_1$ and $\mathbf{v}_2$, which we find using the cross product:
 
    $$
-   \mathbf{n} = \mathbf{v}_1 \times \mathbf{v}_2.
+   \mathbf{n} = \mathbf{v}_1 \times \mathbf{v}_2
    $$
 
    Compute the determinant:
@@ -208,23 +208,23 @@ Parametric Form of the Line:
    1 & 0 & 1 \\
    0 & 1 & -1
    \end{vmatrix}
-   = \mathbf{i}(0 \cdot -1 - 1 \cdot 1) - \mathbf{j}(1 \cdot -1 - 0 \cdot 0) + \mathbf{k}(1 \cdot 1 - 0 \cdot 0).
+   = \mathbf{i}(0 \cdot -1 - 1 \cdot 1) - \mathbf{j}(1 \cdot -1 - 0 \cdot 0) + \mathbf{k}(1 \cdot 1 - 0 \cdot 0)
    $$
 
    Simplify:
 
    $$
-   \mathbf{n} = \mathbf{i}(-1) - \mathbf{j}(-1) + \mathbf{k}(1),
+   \mathbf{n} = \mathbf{i}(-1) - \mathbf{j}(-1) + \mathbf{k}(1)
    $$
 
    $$
-   \mathbf{n} = [-1, 1, 1].
+   \mathbf{n} = [-1, 1, 1]
    $$
 
    The normal vector is:
 
    $$
-   \mathbf{n} = [-1, 1, 1].
+   \mathbf{n} = [-1, 1, 1]
    $$
 
 ---
@@ -234,7 +234,7 @@ Writing the Equation of the Plane.
 The general equation of a plane is:
 
 $$
-n_1(x - x_1) + n_2(y - y_1) + n_3(z - z_1) = 0,
+n_1(x - x_1) + n_2(y - y_1) + n_3(z - z_1) = 0
 $$
 
 where:
@@ -246,23 +246,23 @@ Substitute:
 - Normal vector $\mathbf{n} = [-1, 1, 1]$,
 
 $$
--1(x - 1) + 1(y - 2) + 1(z - 3) = 0.
+-1(x - 1) + 1(y - 2) + 1(z - 3) = 0
 $$
 
 Simplify:
 
 $$
--x + 1 + y - 2 + z - 3 = 0,
+-x + 1 + y - 2 + z - 3 = 0
 $$
 
 $$
--x + y + z - 4 = 0.
+-x + y + z - 4 = 0
 $$
 
 Rewriting:
 
 $$
-x - y - z + 4 = 0.
+x - y - z + 4 = 0
 $$
 
 Thus, the equation of the plane is:
