@@ -690,3 +690,247 @@ $$
 $$
   y = -x + \pi + 1
 $$
+
+# 24. Integrals
+
+### 1. Compute the following integrals:
+
+#### a) $\int 1 \, dx$
+
+The integral of 1 is:  
+
+$$
+\int 1 \, dx = x + C
+$$
+
+---
+
+#### b) $\int (x^2 + 2) \, dx$
+
+The integral of $x^2 + 2$ is:  
+
+$$
+\int (x^2 + 2) \, dx = \frac{x^3}{3} + 2x + C
+$$
+
+---
+
+#### c) $\int 2 \sin(x) \, dx$
+
+The integral of $2 \sin(x)$ is:  
+
+$$
+\int 2 \sin(x) \, dx = -2 \cos(x) + C
+$$
+
+---
+
+#### d) $\int 3x \, dx$
+
+The integral of $3x$ is:  
+
+$$
+\int 3x \, dx = \frac{3x^2}{2} + C
+$$
+
+---
+
+#### e) $\int \frac{1}{x^2} \, dx$
+
+The integral of $\frac{1}{x^2}$ is:  
+
+$$
+\int \frac{1}{x^2} \, dx = -\frac{1}{x} + C
+$$
+
+---
+
+#### f) $\int \left( \frac{1}{3}x^4 - 5 \right) \, dx$
+
+The integral of $\frac{1}{3}x^4 - 5$ is: 
+
+$$
+\int \left( \frac{1}{3}x^4 - 5 \right) \, dx = \frac{1}{15}x^5 - 5x + C
+$$
+
+---
+
+#### g) $\int \left( \sin^2(x) + \cos^2(x) \right) \, dx$
+
+Using the identity $\sin^2(x) + \cos^2(x) = 1$, we get:  
+
+$$
+\int \left( \sin^2(x) + \cos^2(x) \right) \, dx = \int 1 \, dx = x + C
+$$
+
+---
+
+#### h) $\int \left( 5 \sin(x) + 3 e^x \right) \, dx$
+
+The integral of $5 \sin(x) + 3 e^x$ is:  
+
+$$
+\int \left( 5 \sin(x) + 3 e^x \right) \, dx = -5 \cos(x) + 3 e^x + C
+$$
+
+---
+
+#### i) $\int x^3 \, dx$
+
+The integral of $x^3$ is: 
+
+$$
+\int x^3 \, dx = \frac{x^4}{4} + C
+$$
+
+---
+
+#### j) $\int 10x \, dx$
+
+The integral of $10x$ is:
+ 
+$$
+\int 10x \, dx = 5x^2 + C
+$$
+
+---
+
+#### k) $\int \cos\left( \frac{5}{2}x + 3 \right) \, dx$
+
+The integral of $\cos\left( \frac{5}{2}x + 3 \right)$ is: 
+
+$$
+\int \cos\left( \frac{5}{2}x + 3 \right) \, dx = \frac{2}{5} \sin\left( \frac{5}{2}x + 3 \right) + C
+$$
+
+---
+
+#### l) $\int \cos(\ln(x)) x \, dx$
+
+Using substitution, let $u = \ln(x)$, so $du = \frac{1}{x} dx$:
+
+$$
+\int \cos(\ln(x)) x \, dx = \int \cos(u) \, du = \sin(u) + C = \sin(\ln(x)) + C
+$$
+
+---
+
+#### m) $\int x \ln(x) \, dx$
+
+Using integration by parts, let $u = \ln(x)$, $dv = x \, dx$, then $du = \frac{1}{x} \, dx$, and $v = \frac{x^2}{2}$:
+
+$$
+\int x \ln(x) \, dx = \frac{x^2}{2} \ln(x) - \frac{x^2}{4} + C
+$$
+
+---
+
+#### n) $\int x e^x \, dx$
+
+Using integration by parts, let $u = x$, $dv = e^x \, dx$, then $du = dx$, and $v = e^x$:  
+
+$$
+\int x e^x \, dx = x e^x - e^x + C
+$$
+
+---
+
+### 2. Calculate Integrals Over the Interval $([0, \pi]$
+
+#### a) $\int_0^\pi \left( 2x + 1 \right) \, dx$
+
+First, compute the integral:  
+
+$$
+\int_0^\pi \left( 2x + 1 \right) \, dx = \left[ x^2 + x \right]_0^\pi = \pi^2 + \pi - (0 + 0) = \pi^2 + \pi
+$$
+
+#### b) $\int_0^\pi x^2 \, dx$
+
+Compute the integral:  
+
+$$
+\int_0^\pi x^2 \, dx = \left[ \frac{x^3}{3} \right]_0^\pi = \frac{\pi^3}{3} - 0 = \frac{\pi^3}{3}
+$$
+
+---
+
+### 3. Calculate the Area of the Region Bounded by the Lines: $x = 1$, $x = 2$, $y = 0$, and $y = x^2 + 1$
+
+The area is given by:  
+$$
+A = \int_1^2 (x^2 + 1) \, dx
+$$
+
+First, compute the integral:  
+$$
+\int_1^2 (x^2 + 1) \, dx = \left[ \frac{x^3}{3} + x \right]_1^2 = \left( \frac{2^3}{3} + 2 \right) - \left( \frac{1^3}{3} + 1 \right)
+$$  
+$$
+A = \left( \frac{8}{3} + 2 \right) - \left( \frac{1}{3} + 1 \right) = \left( \frac{8}{3} + \frac{6}{3} \right) - \left( \frac{1}{3} + \frac{3}{3} \right) = \frac{14}{3} - \frac{4}{3} = \frac{10}{3}
+$$
+
+---
+
+### 4. Calculate the Area Under the Sine Curve Over the Interval $[0, \pi]$
+
+The area is given by: 
+
+$$
+A = \int_0^\pi \sin(x) \, dx
+$$
+
+Compute the integral: 
+
+$$
+\int_0^\pi \sin(x) \, dx = \left[ -\cos(x) \right]_0^\pi = -\cos(\pi) + \cos(0) = -(-1) + 1 = 2
+$$
+
+---
+
+### 5. Calculate the Length of the Sine Curve Over the Interval $[0, \pi]$
+
+The length of a curve is given by:  
+
+$$
+L = \int_0^\pi \sqrt{1 + (f'(x))^2} \, dx
+$$
+
+For $f(x) = \sin(x)$, we have $f'(x) = \cos(x)$, so the length is:  
+
+$$
+L = \int_0^\pi \sqrt{1 + \cos^2(x)} \, dx
+$$
+
+This integral cannot be expressed in elementary terms, so it is typically approximated numerically.
+
+---
+
+### 6. Find the Distance of the Moving Particle Between Time $t = 0$ and $t = 2$
+
+The position function is $x(t) = 3t^2 - 6t + 1$.  
+The distance traveled is given by the integral of the speed (the absolute value of the velocity):
+
+1. Compute the velocity:  
+
+$$  
+   v(t) = \frac{d}{dt}(3t^2 - 6t + 1) = 6t - 6
+$$
+
+2. Compute the speed (absolute value of velocity):  
+
+$$  
+   |v(t)| = |6t - 6|
+$$
+
+3. Find the point where $v(t) = 0$:  
+
+$$  
+   6t - 6 = 0 \quad \implies \quad t = 1
+$$
+
+4. Compute the distance traveled over $[0, 1]$ and $[1, 2]$: 
+
+   $$  
+   D = \int_0^1 |6t - 6| \, dt + \int
+   $$
