@@ -167,35 +167,35 @@ $$
 
 1. The given limit is:  
 
-   $$
+$$
    \lim_{x \to 0} \frac{\sin(x)}{x}
-   $$
+$$
 
    As $x \to 0$, both the numerator and denominator approach 0, creating an indeterminate form $\frac{0}{0}$. We apply de l'Hospital's Rule.
 
 2. Differentiate the numerator and denominator:  
 
-   $$
+$$
    \frac{d}{dx}[\sin(x)] = \cos(x), \quad \frac{d}{dx}[x] = 1
-   $$
+$$
 
 3. Rewrite the limit:  
 
-   $$
+$$
    \lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{1}
-   $$
+$$
 
 4. Evaluate the limit:  
 
-   $$
+$$
    \lim_{x \to 0} \cos(x) = 1
-   $$
+$$
 
    **Conclusion:**  
 
-   $$
+$$
    \lim_{x \to 0} \frac{\sin(x)}{x} = 1
-   $$
+$$
 
 ---
 
@@ -203,35 +203,35 @@ $$
 
 1. The given limit is:  
 
-   $$
+$$
    \lim_{x \to \infty} \frac{\ln(x)}{x}
-   $$
+$$
 
    As $x \to \infty$, both the numerator and denominator approach infinity, creating an indeterminate form $\frac{\infty}{\infty}$. We apply de l'Hospital's Rule.
 
 2. Differentiate the numerator and denominator:  
 
-   $$
+$$
    \frac{d}{dx}[\ln(x)] = \frac{1}{x}, \quad \frac{d}{dx}[x] = 1
-   $$
+$$
 
 3. Rewrite the limit:  
 
-   $$
+$$
    \lim_{x \to \infty} \frac{\ln(x)}{x} = \lim_{x \to \infty} \frac{\frac{1}{x}}{1}
-   $$
+$$
 
 4. Simplify and evaluate:  
 
-   $$
+$$
    \lim_{x \to \infty} \frac{\frac{1}{x}}{1} = \lim_{x \to \infty} \frac{1}{x} = 0
-   $$
+$$
 
    **Conclusion:**  
 
-   $$
+$$
    \lim_{x \to \infty} \frac{\ln(x)}{x} = 0
-   $$
+$$
 
 ---
 
@@ -239,35 +239,35 @@ $$
 
 1. The given limit is:  
 
-   $$
+$$
    \lim_{x \to \infty} \frac{\exp(x)}{x}
-   $$
+$$
 
    As $x \to \infty$, both the numerator and denominator approach infinity, creating an indeterminate form $\frac{\infty}{\infty}$. We apply de l'Hospital's Rule.
 
 2. Differentiate the numerator and denominator:  
 
-   $$
+$$
    \frac{d}{dx}[\exp(x)] = \exp(x), \quad \frac{d}{dx}[x] = 1
-   $$
+$$
 
 3. Rewrite the limit:  
 
-   $$
+$$
    \lim_{x \to \infty} \frac{\exp(x)}{x} = \lim_{x \to \infty} \frac{\exp(x)}{1}
-   $$
+$$
 
 4. Evaluate the limit:  
 
-   $$
+$$
    \lim_{x \to \infty} \exp(x) = \infty
-   $$
+$$
 
    **Conclusion:**  
 
-   $$
+$$
    \lim_{x \to \infty} \frac{\exp(x)}{x} = \infty
-   $$
+$$
 
 ## 5. Finding Velocity and Acceleration
 
@@ -281,27 +281,27 @@ $$
 
 1. Differentiate $x(t)$ to find the velocity $V(t)$:  
 
-   $$
+$$
    V(t) = \frac{d}{dt} \left( 3t^2 - 6t + 1 \right)
-   $$
+$$
 
    Differentiate term by term:  
 
-   $$
+$$
    V(t) = 6t - 6
-   $$
+$$
 
 2. Evaluate $V(t)$ at $t = 2$:  
 
-   $$
+$$
    V(2) = 6(2) - 6 = 12 - 6 = 6
-   $$
+$$
 
    **Conclusion:**  
 
-   $$
+$$
    V(2) = 6
-   $$
+$$
 
 ---
 
@@ -309,40 +309,40 @@ $$
 
 1. Differentiate $V(t)$ to find the acceleration $a(t)$: 
 
-   $$
+$$
    a(t) = \frac{d}{dt} \left( 6t - 6 \right)
-   $$
+$$
 
    Differentiate term by term:  
 
-   $$
+$$
    a(t) = 6
-   $$
+$$
 
 2. Since $a(t)$ is constant, the acceleration at $t = 2$ is:  
 
-   $$
+$$
    a(2) = 6
-   $$
+$$
 
    **Conclusion:**  
 
-   $$
+$$
    a(2) = 6
-   $$
+$$
 
 ---
 
 ### Final Results:
 1. Velocity at $t = 2$:  
 
-   $$
+$$
    V(2) = 6
-   $$
+$$
 
 2. Acceleration at $t = 2$:  
 
-   $$
+$$
    a(2) = 6
-   $$
+$$
 
