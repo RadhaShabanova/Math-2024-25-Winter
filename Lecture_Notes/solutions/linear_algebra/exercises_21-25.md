@@ -956,3 +956,346 @@ $$
 
 Thus, the total distance traveled by the particle between $t = 0$ and $t = 2$ is 6 units.
 
+# 25. Differencial equations
+
+### 1. Solve the First-Order Ordinary Differential Equations:
+
+#### a) $y'(x) = y$
+
+We use the method of separation of variables:
+
+$$
+\frac{dy}{dx} = y
+$$
+
+Separating variables:
+
+$$
+\frac{dy}{y} = dx
+$$
+
+Now, integrate both sides:
+
+$$
+\int \frac{1}{y} \, dy = \int 1 \, dx
+$$
+
+$$
+\ln |y| = x + C
+$$
+
+Exponentiating both sides:
+
+$$
+|y| = e^{x + C} = e^C e^x
+$$
+
+Let $C_1 = e^C$, so:
+
+$$
+y = C_1 e^x
+$$
+
+Thus, the solution is:
+
+$$
+y(x) = C_1 e^x
+$$
+
+#### b) $y'(x) = \frac{1}{2} y(x)$
+
+We use the method of separation of variables:
+
+$$
+\frac{dy}{dx} = \frac{1}{2} y
+$$
+
+Separating variables:
+
+$$
+\frac{1}{y} \, dy = \frac{1}{2} \, dx
+$$
+
+Now, integrate both sides:
+
+$$
+\int \frac{1}{y} \, dy = \int \frac{1}{2} \, dx
+$$
+
+$$
+\ln |y| = \frac{x}{2} + C
+$$
+
+Exponentiating both sides:
+
+$$
+|y| = e^{\frac{x}{2} + C} = e^C e^{\frac{x}{2}}
+$$
+
+Let $C_2 = e^C$, so:
+
+$$
+y(x) = C_2 e^{\frac{x}{2}}
+$$
+
+Thus, the solution is:
+
+$$
+y(x) = C_2 e^{\frac{x}{2}}
+$$
+
+#### c) $\frac{dy}{dx} = x y$
+
+We use the method of separation of variables:
+
+$$
+\frac{dy}{dx} = x y
+$$
+
+Separating variables:
+
+$$
+\frac{1}{y} \, dy = x \, dx
+$$
+
+Now, integrate both sides:
+
+$$
+\int \frac{1}{y} \, dy = \int x \, dx
+$$
+
+$$
+\ln |y| = \frac{x^2}{2} + C
+$$
+
+Exponentiating both sides:
+
+$$
+|y| = e^{\frac{x^2}{2} + C} = e^C e^{\frac{x^2}{2}}
+$$
+
+Let $C_3 = e^C$, so:
+
+$$
+y(x) = C_3 e^{\frac{x^2}{2}}
+$$
+
+Thus, the solution is:
+
+$$
+y(x) = C_3 e^{\frac{x^2}{2}}
+$$
+
+#### d) $\frac{dy}{dx} = y x$
+
+We use the method of separation of variables:
+
+$$
+\frac{dy}{dx} = y x
+$$
+
+Separating variables:
+
+$$
+\frac{1}{y} \, dy = x \, dx
+$$
+
+Now, integrate both sides:
+
+$$
+\int \frac{1}{y} \, dy = \int x \, dx
+$$
+
+$$
+\ln |y| = \frac{x^2}{2} + C
+$$
+
+Exponentiating both sides:
+
+$$
+|y| = e^{\frac{x^2}{2} + C} = e^C e^{\frac{x^2}{2}}
+$$
+
+Let $C_4 = e^C$, so:
+
+$$
+y(x) = C_4 e^{\frac{x^2}{2}}
+$$
+
+Thus, the solution is:
+
+$$
+y(x) = C_4 e^{\frac{x^2}{2}}
+$$
+
+---
+
+### 2. Solve the Second-Order Ordinary Differential Equations:
+
+#### a) $y''(x) + y'(x) = 0$, with boundary conditions $y(0) = 2$ and $y'(0) = -1$
+
+We first solve the homogeneous equation $y''(x) + y'(x) = 0$.
+
+The characteristic equation is:
+
+$$
+r^2 + r = 0
+$$
+
+Factoring:
+
+$$
+r(r + 1) = 0
+$$
+
+Thus, $r = 0$ or $r = -1$. Therefore, the general solution is:
+
+$$
+y(x) = C_1 + C_2 e^{-x}
+$$
+
+Now, apply the initial conditions:
+
+- $y(0) = 2$:
+
+$$
+C_1 + C_2 = 2
+$$
+
+- $y'(0) = -1$:
+
+$$
+y'(x) = -C_2 e^{-x}
+$$
+
+$$
+y'(0) = -C_2 = -1 \quad \implies \quad C_2 = 1
+$$
+
+Substitute $C_2 = 1$ into $C_1 + C_2 = 2$:
+
+$$
+C_1 + 1 = 2 \quad \implies \quad C_1 = 1
+$$
+
+Thus, the solution is:
+
+$$
+y(x) = 1 + e^{-x}
+$$
+
+#### b) $y''(x) - y(x) = 0$, with boundary conditions $y(0) = 2$ and $y'(0) = 0$
+
+We first solve the homogeneous equation $y''(x) - y(x) = 0$.
+
+The characteristic equation is:
+
+$$
+r^2 - 1 = 0
+$$
+
+Factoring:
+
+$$
+(r - 1)(r + 1) = 0
+$$
+
+Thus, $r = 1$ or $r = -1$. Therefore, the general solution is:
+
+$$
+y(x) = C_1 e^x + C_2 e^{-x}
+$$
+
+Now, apply the initial conditions:
+
+- $y(0) = 2$:
+
+$$
+C_1 + C_2 = 2
+$$
+
+- $y'(0) = 0$:
+
+$$
+y'(x) = C_1 e^x - C_2 e^{-x}
+$$
+
+$$
+y'(0) = C_1 - C_2 = 0 \quad \implies \quad C_1 = C_2
+$$
+
+Substitute $C_1 = C_2$ into $C_1 + C_2 = 2$:
+
+$$
+2C_1 = 2 \quad \implies \quad C_1 = 1
+$$
+
+Thus, $C_2 = 1$, and the solution is:
+
+$$
+y(x) = e^x + e^{-x}
+$$
+
+---
+
+#### c) $y''(x) = -\omega^2 y(x)$
+
+The characteristic equation is:
+
+$$
+r^2 + \omega^2 = 0
+$$
+
+Thus, $r = \pm i\omega$, and the general solution is:
+
+$$
+y(x) = C_1 \cos(\omega x) + C_2 \sin(\omega x)
+$$
+
+This is the solution for the second-order differential equation.
+
+---
+
+### 3. Check if the Function $\psi(t, x) = A \cos(\omega t + kx)$ is a Solution of the Wave Equation
+
+The wave equation is:
+
+$$
+\frac{\partial^2 \psi}{\partial t^2} - v^2 \frac{\partial^2 \psi}{\partial x^2} = 0
+$$
+
+First, compute the second derivatives of $\psi(t, x) = A \cos(\omega t + kx)$.
+
+- The second derivative with respect to $t$:
+
+$$
+\frac{\partial^2 \psi}{\partial t^2} = -A \omega^2 \cos(\omega t + kx)
+$$
+
+- The second derivative with respect to $x$:
+
+$$
+\frac{\partial^2 \psi}{\partial x^2} = -A k^2 \cos(\omega t + kx)
+$$
+
+Substitute these into the wave equation:
+
+$$
+-A \omega^2 \cos(\omega t + kx) - v^2 (-A k^2 \cos(\omega t + kx)) = 0
+$$
+
+Simplifying:
+
+$$
+-A \cos(\omega t + kx) \left( \omega^2 - v^2 k^2 \right) = 0
+$$
+
+For this to hold, we need:
+
+$$
+\omega^2 = v^2 k^2
+$$
+
+Since $v = \frac{\omega}{k}$, this condition is satisfied, so $\psi(t, x) = A \cos(\omega t + kx)$ is indeed a solution of the wave equation.
+
+---
