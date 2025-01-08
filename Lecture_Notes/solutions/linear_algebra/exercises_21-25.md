@@ -77,9 +77,9 @@ $$
 
 1. **Start with the given function:**
 
-   $$
+$$
    y = \ln(\sin(x))
-   $$
+$$
 
 2. **Apply the chain rule:**  
    The derivative of $\ln(u)$ with respect to $x$ is $\frac{1}{u} \cdot \frac{du}{dx}$.  
