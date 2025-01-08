@@ -4,12 +4,11 @@
 
 1. **Function**: $y(x) = -3x + 3$  
    **Derivative**:  
-
-   $$ y'(x) = -3 $$
+   $$y'(x) = -3$$
 
 2. **Function**: $y(x) = \pi x + \sin(1)$  
    **Derivative**: 
-    
+
    $$ y'(x) = \pi $$
 
 3. **Function**: \( y(x) = 4 + \sin(2) \)  
