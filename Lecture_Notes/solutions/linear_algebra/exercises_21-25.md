@@ -1140,6 +1140,7 @@ y(x) = C e^{\frac{x^2}{2}}
 $$
 
 where $C$ is a constant of integration.
+
 ---
 
 ### 2. Solve the Second-Order Ordinary Differential Equations:
