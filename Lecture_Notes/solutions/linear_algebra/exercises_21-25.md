@@ -545,3 +545,148 @@ The function $f(x) = \frac{x^2 + 2x + 1}{x - 1}$ has critical points at:
 $$
 x = 3 \, \text{and} \, x = -1
 $$
+
+
+# 23. Taylor Series
+
+#### 1. Taylor Series for $f(x) = \cos(x)$ around $x = 0$ (up to 4th degree)
+The Taylor series for $\cos(x)$ is given by:  
+
+$$
+\cos(x) = \sum_{n=0}^\infty \frac{(-1)^n}{(2n)!} x^{2n}
+$$
+
+For $n = 0, 1, 2$:  
+- For $n = 0$: $\frac{(-1)^0}{(2 \cdot 0)!} x^{2 \cdot 0} = 1$  
+- For $n = 1$: $\frac{(-1)^1}{(2 \cdot 1)!} x^{2 \cdot 1} = -\frac{x^2}{2}$  
+- For $n = 2$: $\frac{(-1)^2}{(2 \cdot 2)!} x^{2 \cdot 2} = \frac{x^4}{24}$
+
+Thus, the Taylor series is:  
+
+$$
+f(x) = \cos(x) \approx 1 - \frac{x^2}{2} + \frac{x^4}{24}
+$$
+
+---
+
+#### 2. Taylor Series for $h(x) = \frac{1}{1-x}$ around $x = 0$ (up to 4th degree)
+The Taylor series for $\frac{1}{1-x}$ is given by:  
+
+$$
+\frac{1}{1-x} = \sum_{n=0}^\infty x^n
+$$
+
+For $n = 0, 1, 2, 3$:  
+- For $n = 0$: $x^0 = 1$
+- For $n = 1$: $x^1 = x$  
+- For $n = 2$: $x^2 = x^2$ 
+- For $n = 3$: $x^3 = x^3$
+
+Thus, the Taylor series is:  
+
+$$
+h(x) = \frac{1}{1-x} \approx 1 + x + x^2 + x^3
+$$
+
+---
+
+#### 3. Taylor Series for $g(x) = \sin(x)$ around $x = \pi$ (up to 4th degree)
+The Taylor series for $\sin(x)$ around $x = \pi$ is given by: 
+
+$$
+\sin(x) = \sum_{n=0}^\infty \frac{(-1)^n}{(2n+1)!} (x-\pi)^{2n+1}
+$$
+
+For $n = 0, 1, 2$:  
+- For $n = 0$: $\frac{(-1)^0}{1!} (x-\pi)^1 = (x-\pi)$ 
+- For $n = 1$: $\frac{(-1)^1}{3!} (x-\pi)^3 = -\frac{(x-\pi)^3}{6}$
+
+Thus, the Taylor series is:  
+
+$$
+g(x) = \sin(x) \approx (x-\pi) - \frac{(x-\pi)^3}{6}
+$$
+
+---
+
+#### 4. Tangent Line to $f(x) = e^{\sin(x)}$ at $x_0 = \pi$
+The tangent line formula is:  
+
+$$
+y = f'(x_0)(x-x_0) + f(x_0)
+$$
+
+1. Compute $f(x)$ at $x_0 = \pi$: 
+
+$$
+   f(x) = e^{\sin(x)} \quad \implies \quad f(\pi) = e^{\sin(\pi)} = e^0 = 1
+$$
+
+2. Compute $f'(x)$:  
+   Using the chain rule: 
+
+$$
+   f'(x) = e^{\sin(x)} \cdot \cos(x)
+$$  
+
+   At $x_0 = \pi$:  
+
+$$
+   f'(\pi) = e^{\sin(\pi)} \cdot \cos(\pi) = e^0 \cdot (-1) = -1
+$$
+
+3. Write the tangent line equation: 
+
+$$
+   y = f'(\pi)(x-\pi) + f(\pi)
+$$
+
+   Substitute $f'(\pi) = -1$ and $f(\pi) = 1$:  
+
+$$
+   y = -1(x-\pi) + 1
+$$
+
+   Simplify:  
+
+$$
+   y = -x + \pi + 1
+$$
+
+---
+
+### Visualization in Geogebra:
+1. **Define functions:**  
+   - $f(x) = \cos(x)$, $h(x) = \frac{1}{1-x}$, $g(x) = \sin(x)$  
+   - Include sliders $s$ for exploration.
+
+2. **Tangent Line Setup:**  
+   - Define $f(x) = e^{\sin(x)}$.  
+   - Use the slider $s$ for $x_0$.  
+   - Define the tangent line as $y = f'(s)(x-s) + f(s)$.  
+   - Plot the point $P(s, f(s))$ to visualize the tangent line moving with $s$.
+
+### Final Results:
+- Taylor series for $f(x) = \cos(x)$:  
+
+$$
+  f(x) \approx 1 - \frac{x^2}{2} + \frac{x^4}{24}
+$$
+
+- Taylor series for $h(x) = \frac{1}{1-x}$:  
+
+$$
+  h(x) \approx 1 + x + x^2 + x^3
+$$
+
+- Taylor series for $g(x) = \sin(x)$:  
+
+$$
+  g(x) \approx (x-\pi) - \frac{(x-\pi)^3}{6}
+$$
+
+- Tangent line to $f(x) = e^{\sin(x)}$ at $x_0 = \pi$:  
+
+$$
+  y = -x + \pi + 1
+$$
