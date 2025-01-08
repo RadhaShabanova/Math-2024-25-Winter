@@ -351,6 +351,7 @@ $$
 ### 1. Maximizing Profit
 
 The profit function is given as:  
+
 $$
 P(u) = -2u^2 + 50u - 300
 $$
