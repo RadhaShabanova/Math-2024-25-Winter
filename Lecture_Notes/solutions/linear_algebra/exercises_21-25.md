@@ -85,27 +85,27 @@ $$
    The derivative of $\ln(u)$ with respect to $x$ is $\frac{1}{u} \cdot \frac{du}{dx}$.  
    Here, $u = \sin(x)$.
 
-   $$
+$$
    \frac{d}{dx} \left( \ln(\sin(x)) \right) = \frac{1}{\sin(x)} \cdot \frac{d}{dx} (\sin(x))
-   $$
+$$
 
 3. **Differentiate $\sin(x)$:**  
 
-   $$
+$$
    \frac{d}{dx} (\sin(x)) = \cos(x)
-   $$
+$$
 
 4. **Substitute back:** 
 
-   $$
+$$
    \frac{d}{dx} \left( \ln(\sin(x)) \right) = \frac{\cos(x)}{\sin(x)}
-   $$
+$$
 
 5. **Simplify the result:**  
 
-   $$
+$$
    \frac{\cos(x)}{\sin(x)} = \cot(x)
-   $$
+$$
 
 #### Conclusion:
 
