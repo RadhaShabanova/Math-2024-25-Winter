@@ -932,7 +932,26 @@ $$
    6t - 6 = 0 \quad \implies \quad t = 1
 $$
 
-4. Compute the distance traveled over $[0, 1]$ and $[1, 2]$: 
+4. Break the distance traveled into intervals based on when the velocity changes sign:
+   - For $t \in [0, 1]$, $v(t) = 6t - 6$ is negative, so $|v(t)| = -(6t - 6) = 6 - 6t$.
+   - For $t \in [1, 2]$, $v(t) = 6t - 6$ is positive, so $|v(t)| = 6t - 6$.
 
-   $$  
-   D = \int_0^1 |6t - 6| \, dt + \int
+5. Compute the distance traveled over $[0, 1]$:
+
+$$  
+   D_1 = \int_0^1 (6 - 6t) \, dt = \left[ 6t - 3t^2 \right]_0^1 = (6 - 3) - (0) = 3
+$$
+
+6. Compute the distance traveled over $[1, 2]$:
+
+$$  
+   D_2 = \int_1^2 (6t - 6) \, dt = \left[ 3t^2 - 6t \right]_1^2 = (12 - 12) - (3 - 6) = 0 - (-3) = 3
+$$
+
+7. Total distance traveled:
+$$  
+   D = D_1 + D_2 = 3 + 3 = 6
+$$
+
+Thus, the total distance traveled by the particle between $t = 0$ and $t = 2$ is 6 units.
+
