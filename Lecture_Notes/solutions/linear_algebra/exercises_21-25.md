@@ -858,14 +858,17 @@ $$
 ### 3. Calculate the Area of the Region Bounded by the Lines: $x = 1$, $x = 2$, $y = 0$, and $y = x^2 + 1$
 
 The area is given by:  
+
 $$
 A = \int_1^2 (x^2 + 1) \, dx
 $$
 
 First, compute the integral:  
+
 $$
 \int_1^2 (x^2 + 1) \, dx = \left[ \frac{x^3}{3} + x \right]_1^2 = \left( \frac{2^3}{3} + 2 \right) - \left( \frac{1^3}{3} + 1 \right)
 $$  
+
 $$
 A = \left( \frac{8}{3} + 2 \right) - \left( \frac{1}{3} + 1 \right) = \left( \frac{8}{3} + \frac{6}{3} \right) - \left( \frac{1}{3} + \frac{3}{3} \right) = \frac{14}{3} - \frac{4}{3} = \frac{10}{3}
 $$
