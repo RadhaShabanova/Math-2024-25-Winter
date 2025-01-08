@@ -346,3 +346,200 @@ $$
    a(2) = 6
 $$
 
+# 22. Extremum
+
+### 1. Maximizing Profit
+
+The profit function is given as:  
+$$
+P(u) = -2u^2 + 50u - 300
+$$
+
+To maximize profit, find the critical points by setting the derivative $P'(u)$ to zero.
+
+1. Compute the derivative:  
+
+$$
+   P'(u) = \frac{d}{du} \left( -2u^2 + 50u - 300 \right)
+$$
+
+   Differentiate term by term: 
+
+$$
+   P'(u) = -4u + 50
+$$
+
+2. Set $P'(u) = 0$ and solve for $u$:  
+
+$$
+   -4u + 50 = 0
+$$
+
+$$
+   u = \frac{50}{4} = 12.5
+$$
+
+3. Verify that this is a maximum using the second derivative: 
+
+$$
+   P''(u) = \frac{d}{du}(-4u + 50) = -4
+$$
+
+   Since $P''(u) < 0$, $P(u)$ has a maximum at $u = 12.5$.
+
+**Conclusion:**  
+The number of units that maximizes profit is:  
+
+$$
+u = 12.5
+$$
+
+---
+
+### 2. Maximizing the Area of a Rectangle
+
+You have 10 meters of string, so the perimeter of the rectangle is:  
+
+$$
+2l + 2w = 10 \quad \implies \quad l + w = 5
+$$
+
+To maximize the area $A$, express it in terms of one variable.
+
+1. Write the area as:  
+
+$$
+   A = l \cdot w
+$$
+
+2. Substitute $w = 5 - l$:  
+
+$$
+   A = l(5 - l) = 5l - l^2
+$$
+
+3. Maximize $A$ by finding the critical points of $A(l)$:  
+   Compute the derivative: 
+
+$$
+   A'(l) = \frac{d}{dl} (5l - l^2) = 5 - 2l
+$$
+
+4. Set $A'(l) = 0$ and solve for $l$:  
+
+$$
+   5 - 2l = 0 \quad \implies \quad l = 2.5
+$$
+
+5. Find $w$ using $w = 5 - l$:  
+
+$$
+   w = 5 - 2.5 = 2.5
+$$
+
+**Conclusion:**  
+The dimensions of the rectangle that maximize the area are: 
+
+$$
+l = 2.5 \, \text{m}, \, w = 2.5 \, \text{m}
+$$
+
+---
+
+### 3. Extremum of $f(x) = x^2 + 3x - 5$
+
+1. Compute the derivative:  
+$$
+   f'(x) = \frac{d}{dx} (x^2 + 3x - 5) = 2x + 3
+$$
+
+2. Set $f'(x) = 0$ and solve for $x$:  
+
+$$
+   2x + 3 = 0 \quad \implies \quad x = -\frac{3}{2}
+$$
+
+3. Verify the nature of the extremum using the second derivative:  
+
+$$
+   f''(x) = \frac{d}{dx}(2x + 3) = 2
+$$
+
+   Since $f''(x) > 0$, $f(x)$ has a minimum at $x = -\frac{3}{2}$.
+
+4. Find the value of $f(x)$ at $x = -\frac{3}{2}$:  
+
+$$
+   f\left(-\frac{3}{2}\right) = \left(-\frac{3}{2}\right)^2 + 3\left(-\frac{3}{2}\right) - 5
+$$
+
+$$
+   = \frac{9}{4} - \frac{9}{2} - 5 = \frac{9}{4} - \frac{18}{4} - \frac{20}{4} = -\frac{29}{4}
+$$
+
+**Conclusion:**  
+The minimum value of $f(x)$ is: 
+
+$$
+f\left(-\frac{3}{2}\right) = -\frac{29}{4}
+$$
+
+---
+
+### 4. Extremum of $f(x) = \frac{x^2 + 2x + 1}{x - 1}$
+
+1. Compute the derivative using the quotient rule:  
+   If $f(x) = \frac{g(x)}{h(x)}$, then:  
+
+$$
+   f'(x) = \frac{g'(x)h(x) - g(x)h'(x)}{[h(x)]^2}
+$$
+
+   Here, $g(x) = x^2 + 2x + 1$ and $h(x) = x - 1$.  
+   Compute derivatives:  
+
+$$
+   g'(x) = 2x + 2, \quad h'(x) = 1
+$$
+
+2. Substitute into the quotient rule:  
+
+$$
+   f'(x) = \frac{(2x + 2)(x - 1) - (x^2 + 2x + 1)(1)}{(x - 1)^2}
+$$
+
+   Simplify the numerator: 
+
+$$
+   f'(x) = \frac{(2x^2 - 2x + 2x - 2) - (x^2 + 2x + 1)}{(x - 1)^2}
+$$
+
+$$
+   f'(x) = \frac{2x^2 - 2 - x^2 - 2x - 1}{(x - 1)^2} = \frac{x^2 - 2x - 3}{(x - 1)^2}
+$$
+
+3. Set $f'(x) = 0$:  
+   The numerator must be zero: 
+
+$$
+   x^2 - 2x - 3 = 0
+$$
+
+   Factorize:  
+
+$$
+   (x - 3)(x + 1) = 0
+$$
+
+$$
+   x = 3 \, \text{or} \, x = -1
+$$
+
+4. Verify the nature of the extremum by examining the second derivative or the behavior of $f'(x)$.  
+
+**Conclusion:**  
+The function $f(x) = \frac{x^2 + 2x + 1}{x - 1}$ has critical points at:  
+
+$$
+x = 3 \, \text{and} \, x = -1
+$$
