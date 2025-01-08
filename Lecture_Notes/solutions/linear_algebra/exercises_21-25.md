@@ -132,7 +132,7 @@ $$
 2. **Second derivative:**  
    Differentiate $f'(x) = -\sin(x)$ :  
 $$
-   f''(x) = \frac{d}{dx}(-\sin(x)) = -\cos(x)
+f''(x) = \frac{d}{dx}(-\sin(x)) = -\cos(x)
 $$
 
 3. **Compare \( f''(x) \) and \( -f(x) \):**  
