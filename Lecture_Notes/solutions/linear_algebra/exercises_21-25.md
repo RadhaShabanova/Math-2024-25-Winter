@@ -949,6 +949,7 @@ $$
 $$
 
 7. Total distance traveled:
+
 $$  
    D = D_1 + D_2 = 3 + 3 = 6
 $$
