@@ -1044,7 +1044,10 @@ $$
 y(x) = C_2 e^{\frac{x}{2}}
 $$
 
-#### c) $\frac{dy}{dx} = x y$
+
+### 2. Solve the First-Order Ordinary Differential Equations using the Method of Separation of Variables:
+
+#### a) $\frac{dy}{dx} = x y$
 
 We use the method of separation of variables:
 
@@ -1074,19 +1077,19 @@ $$
 |y| = e^{\frac{x^2}{2} + C} = e^C e^{\frac{x^2}{2}}
 $$
 
-Let $C_3 = e^C$, so:
+Let $C_1 = e^C$, so:
 
 $$
-y(x) = C_3 e^{\frac{x^2}{2}}
+y(x) = C_1 e^{\frac{x^2}{2}}
 $$
 
 Thus, the solution is:
 
 $$
-y(x) = C_3 e^{\frac{x^2}{2}}
+y(x) = C_1 e^{\frac{x^2}{2}}
 $$
 
-#### d) $\frac{dy}{dx} = y x$
+#### b) $\frac{dy}{dx} = y x$
 
 We use the method of separation of variables:
 
@@ -1116,18 +1119,27 @@ $$
 |y| = e^{\frac{x^2}{2} + C} = e^C e^{\frac{x^2}{2}}
 $$
 
-Let $C_4 = e^C$, so:
+Let $C_2 = e^C$, so:
 
 $$
-y(x) = C_4 e^{\frac{x^2}{2}}
+y(x) = C_2 e^{\frac{x^2}{2}}
 $$
 
 Thus, the solution is:
 
 $$
-y(x) = C_4 e^{\frac{x^2}{2}}
+y(x) = C_2 e^{\frac{x^2}{2}}
 $$
 
+---
+
+Thus, the general solution for both equations $\frac{dy}{dx} = x y$ and $\frac{dy}{dx} = y x$ is:
+
+$$
+y(x) = C e^{\frac{x^2}{2}}
+$$
+
+where $C$ is a constant of integration.
 ---
 
 ### 2. Solve the Second-Order Ordinary Differential Equations:
