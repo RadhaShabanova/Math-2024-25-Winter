@@ -8,64 +8,63 @@
 
 2. **Function**: $y(x) = \pi x + \sin(1)$  
    **Derivative**: 
+   $$y'(x) = \pi$$
 
-   $$ y'(x) = \pi $$
-
-3. **Function**: \( y(x) = 4 + \sin(2) \)  
+3. **Function**: $y(x) = 4 + \sin(2)$  
    **Derivative**:  
-   $$ y'(x) = 0 $$
+   $$y'(x) = 0$$
 
-4. **Function**: \( y(x) = 2x^3 - 3x^2 + 8x - 9 \)  
+4. **Function**: $y(x) = 2x^3 - 3x^2 + 8x - 9$  
    **Derivative**:  
-   $$ y'(x) = 6x^2 - 6x + 8 $$
+   $$y'(x) = 6x^2 - 6x + 8$$
 
-5. **Function**: \( y(x) = 6x^{1/3} \)  
+5. **Function**: $y(x) = 6x^{1/3}$  
    **Derivative**:  
-   $$ y'(x) = 2x^{-2/3} $$
+   $$y'(x) = 2x^{-2/3}$$
 
-6. **Function**: \( y(x) = x \)  
+6. **Function**: $y(x) = x$  
    **Derivative**:  
-   $$ y'(x) = 1 $$
+   $$y'(x) = 1$$
 
-7. **Function**: \( y(x) = \cos(x) + \sin(x) \)  
+7. **Function**: $y(x) = \cos(x) + \sin(x)$  
    **Derivative**:  
-   $$ y'(x) = -\sin(x) + \cos(x) $$
+   $$y'(x) = -\sin(x) + \cos(x)$$
 
-8. **Function**: \( y(x) = 2\sin(x)\cos(x) \)  
+8. **Function**: $y(x) = 2\sin(x)\cos(x)$  
    **Derivative**:  
-   $$ y'(x) = 2\cos^2(x) - 2\sin^2(x) $$
+   $$y'(x) = 2\cos^2(x) - 2\sin^2(x)$$
 
-9. **Function**: \( y(x) = x\sin(x) \)  
+9. **Function**: $y(x) = x\sin(x)$  
    **Derivative**:  
-   $$ y'(x) = \sin(x) + x\cos(x) $$
+   $$y'(x) = \sin(x) + x\cos(x)$$
 
-10. **Function**: \( y(x) = (x + 1)(x + 1) \)  
+10. **Function**: $y(x) = (x + 1)(x + 1)$  
     **Derivative**:  
-    $$ y'(x) = 2(x + 1) $$
+    $$y'(x) = 2(x + 1)$$
 
-11. **Function**: \( y(x) = \frac{x}{x + 1} \)  
+11. **Function**: $y(x) = \frac{x}{x + 1}$  
     **Derivative**:  
-    $$ y'(x) = \frac{1}{(x + 1)^2} $$
+    $$y'(x) = \frac{1}{(x + 1)^2}$$
 
-12. **Function**: \( y(x) = (x + 1)\exp(x) \)  
+12. **Function**: $y(x) = (x + 1)\exp(x)$  
     **Derivative**:  
-    $$ y'(x) = (x + 1)\exp(x) + \exp(x) $$
+    $$y'(x) = (x + 1)\exp(x) + \exp(x)$$
 
-13. **Function**: \( y(x) = \sin(x^2) \)  
+13. **Function**: $y(x) = \sin(x^2)$  
     **Derivative**:  
-    $$ y'(x) = 2x\cos(x^2) $$
+    $$y'(x) = 2x\cos(x^2)$$
 
-14. **Function**: \( y(x) = \exp(-2x) \)  
+14. **Function**: $y(x) = \exp(-2x)$ 
     **Derivative**:  
-    $$ y'(x) = -2\exp(-2x) $$
+    $$y'(x) = -2\exp(-2x)$$
 
-15. **Function**: \( y(x) = \frac{1}{\sin(x + 1)} \)  
+15. **Function**: $y(x) = \frac{1}{\sin(x + 1)}$  
     **Derivative**:  
-    $$ y'(x) = -\frac{\cos(x + 1)}{\sin^2(x + 1)} $$
+    $$y'(x) = -\frac{\cos(x + 1)}{\sin^2(x + 1)}$$
 
-16. **Function**: \( y(x) = 2x + 1 \)  
+16. **Function**: $y(x) = 2x + 1$  
     **Derivative**:  
-    $$ y'(x) = 2 $$
+    $$y'(x) = 2$$
 
 
 ### 2. Proof:
