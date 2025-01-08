@@ -125,30 +125,30 @@ $$
    Start with $f(x) = \cos(x)$ .  
    Differentiate once to find $f'(x)$ :  
 
-   $$
+$$
    f'(x) = \frac{d}{dx} \cos(x) = -\sin(x)
-   $$
+$$
 
 2. **Second derivative:**  
    Differentiate $f'(x) = -\sin(x)$ :  
-   $$
+$$
    f''(x) = \frac{d}{dx}(-\sin(x)) = -\cos(x)
-   $$
+$$
 
 3. **Compare \( f''(x) \) and \( -f(x) \):**  
    From the result:  
-   $$
+$$
    f''(x) = -\cos(x)
-   $$  
+$$  
    From \( f(x) \):  
-   $$
+$$
    -f(x) = -\cos(x)
-   $$
+$$
 
    Therefore:  
-   $$
+$$
    f''(x) = -f(x)
-   $$
+$$
 
 #### Conclusion:
 
