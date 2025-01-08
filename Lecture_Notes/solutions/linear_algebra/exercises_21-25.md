@@ -450,6 +450,7 @@ $$
 ### 3. Extremum of $f(x) = x^2 + 3x - 5$
 
 1. Compute the derivative:  
+
 $$
    f'(x) = \frac{d}{dx} (x^2 + 3x - 5) = 2x + 3
 $$
