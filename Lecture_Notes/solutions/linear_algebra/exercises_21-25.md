@@ -573,9 +573,9 @@ $$
 
 #### Explanation of Terms:
 
-- \(f^{(n)}(a)\): The \(n\)-th derivative of \(f(x)\) evaluated at \(x = a\),
+- $f^{(n)}(a)$: The \(n\)-th derivative of \(f(x)\) evaluated at \(x = a\),
 - \(n!\) (read as "n factorial"): The product of all positive integers from \(1\) to \(n\),
-- \((x - a)^n\): The distance of \(x\) from the point \(a\), raised to the power of \(n\).
+- $(x - a)^n$: The distance of \(x\) from the point \(a\), raised to the power of \(n\).
 
 ---
 
