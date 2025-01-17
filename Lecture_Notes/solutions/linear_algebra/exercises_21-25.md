@@ -549,6 +549,36 @@ $$
 
 # 23. Taylor Series
 
+#### What is a Taylor Series?
+
+The **Taylor series** is a way to represent a smooth function as an infinite sum of terms calculated from the values of its derivatives at a single point. It is a powerful mathematical tool that approximates a function by a polynomial, which becomes increasingly accurate as more terms are included.
+
+---
+
+#### Formula for the Taylor Series
+
+The Taylor series of a function \(f(x)\) around a point \(a\) is given by:
+
+$$
+f(x) = f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x - a)^3 + \cdots
+$$
+
+In summation notation, it can be written as:
+
+$$
+f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!} (x - a)^n
+$$
+
+---
+
+#### Explanation of Terms:
+
+- \(f^{(n)}(a)\): The \(n\)-th derivative of \(f(x)\) evaluated at \(x = a\),
+- \(n!\) (read as "n factorial"): The product of all positive integers from \(1\) to \(n\),
+- \((x - a)^n\): The distance of \(x\) from the point \(a\), raised to the power of \(n\).
+
+---
+
 #### 1. Taylor Series for $f(x) = \cos(x)$ around $x = 0$ (up to 4th degree)
 The Taylor series for $\cos(x)$ is given by:  
 
