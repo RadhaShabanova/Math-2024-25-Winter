@@ -653,18 +653,6 @@ $$
    y = -x + \pi + 1
 $$
 
----
-
-### Visualization in Geogebra:
-1. **Define functions:**  
-   - $f(x) = \cos(x)$, $h(x) = \frac{1}{1-x}$, $g(x) = \sin(x)$  
-   - Include sliders $s$ for exploration.
-
-2. **Tangent Line Setup:**  
-   - Define $f(x) = e^{\sin(x)}$.  
-   - Use the slider $s$ for $x_0$.  
-   - Define the tangent line as $y = f'(s)(x-s) + f(s)$.  
-   - Plot the point $P(s, f(s))$ to visualize the tangent line moving with $s$.
 
 ### Final Results:
 - Taylor series for $f(x) = \cos(x)$:  
@@ -692,6 +680,21 @@ $$
 $$
 
 # 24. Integrals
+
+### First, lets recall the Power Rule for Integration
+
+The power rule for integration states that for any constant \(a\) and exponent \(n \neq -1\):
+
+$$
+\int a x^n \, dx = \frac{a x^{n+1}}{n+1} + C
+$$
+
+where:
+
+- \(a\) is a constant multiplier,
+- \(n\) is the exponent of \(x\),
+- \(C\) is the constant of integration, which accounts for any constant that could have been present before differentiation.
+
 
 ### 1. Compute the following integrals:
 
